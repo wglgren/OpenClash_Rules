@@ -4,4 +4,6 @@
 # 强制代理列表，来自个人收集
 
 # Carel 官网
-#DOMAIN-SUFFIX,carel.com
+DOMAIN-SUFFIX,carel.com
+# Emotn TV Store
+DOMAIN-SUFFIX,keeflys.com,
