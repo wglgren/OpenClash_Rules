@@ -16,22 +16,22 @@ dns:
 proxies:
     - { name: 建议每次使用前都更新一下订阅, type: ss, server: hzhz1.sssyun.xyz, port: 29527, cipher: 2022-blake3-aes-128-gcm, password: 'MDhhMTdjZDI0MjI2ZWRlNg==:YTFiNGE1NWEtMzVlMC00Yw==', udp: true }
     - { name: 🇭🇰香港1, server: hk1.jueduibupao.top, port: 50001, sni: hk1.jueduibupao.top, up: 100, down: 300, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4 }
-    - { name: 🇭🇰香港2, server: hk2.jueduibupao.top, port: 49181, sni: hk2.jueduibupao.top, up: 100, down: 300, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, ports: 40000-50000 }
-    - { name: 🇸🇬新加坡2, server: linsg2.jueduibupao.top, port: 41154, sni: linsg2.jueduibupao.top, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, ports: 40000-50000 }
+    - { name: 🇭🇰香港2, server: hk2.jueduibupao.top, port: 43464, sni: hk2.jueduibupao.top, up: 100, down: 300, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, ports: 40000-50000 }
+    - { name: 🇸🇬新加坡2, server: linsg2.jueduibupao.top, port: 48292, sni: linsg2.jueduibupao.top, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, ports: 40000-50000 }
     - { name: 🇸🇬新加坡3, server: linsg3.jueduibupao.top, port: 30054, sni: linsg3.jueduibupao.top, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4 }
     - { name: 🇨🇳台湾1-Gpt, server: tw2.jueduibupao.top, port: 30078, sni: tw2.jueduibupao.top, up: 200, down: 200, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4 }
     - { name: 🇨🇳台湾2-Gpt, server: tw22.jueduibupao.top, port: 30104, sni: tw22.jueduibupao.top, up: 200, down: 200, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4 }
-    - { name: 🇯🇵日本1, server: linjp1.jueduibupao.top, port: 42826, sni: linjp1.jueduibupao.top, up: 100, down: 300, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, ports: 40000-50000 }
-    - { name: 🇯🇵日本2, server: linjp2.jueduibupao.top, port: 49058, sni: linjp2.jueduibupao.top, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, ports: 40000-50000 }
+    - { name: 🇯🇵日本1, server: linjp1.jueduibupao.top, port: 44915, sni: linjp1.jueduibupao.top, up: 100, down: 300, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, ports: 40000-50000 }
+    - { name: 🇯🇵日本2, server: linjp2.jueduibupao.top, port: 40942, sni: linjp2.jueduibupao.top, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, ports: 40000-50000 }
     - { name: 🇰🇷韩国-家宽, server: 6bkr1.6bnw.top, port: 10100, sni: 6bkr1.6bnw.top, up: 100, down: 100, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4 }
     - { name: 🇹🇭曼谷, server: th1.jueduibupao.top, port: 30000, sni: th1.jueduibupao.top, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4 }
     - { name: 🇮🇩印尼, server: in1.jueduibupao.top, port: 30000, sni: in1.jueduibupao.top, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4 }
     - { name: 🇺🇸拉斯维加斯, server: lvs.jueduibupao.top, port: 50001, sni: lvs.jueduibupao.top, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4 }
     - { name: 🇺🇸凤凰城, server: ny.jueduibupao.top, port: 50001, sni: ny.jueduibupao.top, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4 }
     - { name: 🇺🇸圣何塞, server: azcus1.jueduibupao.top, port: 20101, sni: azcus1.jueduibupao.top, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4 }
-    - { name: 🇨🇦加拿大, server: ca1.jueduibupao.top, port: 42591, sni: ca1.jueduibupao.top, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, ports: 40000-50000 }
-    - { name: 🇩🇪德国, server: de1.jueduibupao.top, port: 45138, sni: de1.jueduibupao.top, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, ports: 40000-50000 }
-    - { name: 🇬🇧英国, server: uk1.jueduibupao.top, port: 48969, sni: uk1.jueduibupao.top, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, ports: 40000-50000 }
+    - { name: 🇨🇦加拿大, server: ca1.jueduibupao.top, port: 45462, sni: ca1.jueduibupao.top, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, ports: 40000-50000 }
+    - { name: 🇩🇪德国, server: de1.jueduibupao.top, port: 44296, sni: de1.jueduibupao.top, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, ports: 40000-50000 }
+    - { name: 🇬🇧英国, server: uk1.jueduibupao.top, port: 40292, sni: uk1.jueduibupao.top, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, ports: 40000-50000 }
     - { name: 🇭🇰香港01-IPv6, type: ss, server: hzhz1.sssyun.xyz, port: 29527, cipher: 2022-blake3-aes-128-gcm, password: 'MDhhMTdjZDI0MjI2ZWRlNg==:YTFiNGE1NWEtMzVlMC00Yw==', udp: true }
     - { name: 🇭🇰香港02-IPv6, type: ss, server: hzhz2.sssyun.xyz, port: 40010, cipher: 2022-blake3-aes-128-gcm, password: 'MDhhMTdjZDI0MjI2ZWRlNg==:YTFiNGE1NWEtMzVlMC00Yw==', udp: true }
     - { name: 🇭🇰香港03-IPv6, type: ss, server: hzhz1.sssyun.xyz, port: 19527, cipher: 2022-blake3-aes-128-gcm, password: 'MDhhMTdjZDI0MjI2ZWRlNg==:YTFiNGE1NWEtMzVlMC00Yw==', udp: true }
@@ -72,16 +72,16 @@ proxy-groups:
     - { name: 自动选择, type: url-test, proxies: [建议每次使用前都更新一下订阅, 🇭🇰香港1, 🇭🇰香港2, 🇸🇬新加坡2, 🇸🇬新加坡3, 🇨🇳台湾1-Gpt, 🇨🇳台湾2-Gpt, 🇯🇵日本1, 🇯🇵日本2, 🇰🇷韩国-家宽, 🇹🇭曼谷, 🇮🇩印尼, 🇺🇸拉斯维加斯, 🇺🇸凤凰城, 🇺🇸圣何塞, 🇨🇦加拿大, 🇩🇪德国, 🇬🇧英国, 🇭🇰香港01-IPv6, 🇭🇰香港02-IPv6, 🇭🇰香港03-IPv6, 🇭🇰香港04-IPv6, 🇭🇰香港05-流媒体解锁, 🇭🇰香港06-流媒体解锁, 🇸🇬新加坡01-流媒体解锁, 🇸🇬新加坡02-流媒体解锁, 🇸🇬新加坡03, 🇸🇬新加坡04, 🇰🇷韩国-家宽03, 🇰🇷韩国-家宽04, 🇨🇳台湾01-Gpt, 🇨🇳台湾02-Gpt, 🇨🇳台湾03-Gpt, 🇨🇳台湾04-Gpt, 🇯🇵日本01, 🇯🇵日本02, 🇯🇵日本03, 🇯🇵日本04, 🇨🇦加拿大01, 🇨🇦加拿大02, 🇺🇸美国凤凰城01, 🇺🇸美国凤凰城02, 🇺🇸美国拉斯维加斯01, 🇺🇸美国拉斯维加斯02, 🇩🇪德国01, 🇩🇪德国02, 🇬🇧英国01, 🇬🇧英国02, '只显示此节点,请更新你的客户端', '🇺🇸拉斯维加斯01-下载&防失联-0.1X', '🇺🇸拉斯维加斯02-下载&防失联-0.1X', '🇺🇸拉斯维加斯03-下载&防失联-0.1X', '🇺🇸拉斯维加斯04-下载&防失联-0.1X'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
     - { name: 故障转移, type: fallback, proxies: [建议每次使用前都更新一下订阅, 🇭🇰香港1, 🇭🇰香港2, 🇸🇬新加坡2, 🇸🇬新加坡3, 🇨🇳台湾1-Gpt, 🇨🇳台湾2-Gpt, 🇯🇵日本1, 🇯🇵日本2, 🇰🇷韩国-家宽, 🇹🇭曼谷, 🇮🇩印尼, 🇺🇸拉斯维加斯, 🇺🇸凤凰城, 🇺🇸圣何塞, 🇨🇦加拿大, 🇩🇪德国, 🇬🇧英国, 🇭🇰香港01-IPv6, 🇭🇰香港02-IPv6, 🇭🇰香港03-IPv6, 🇭🇰香港04-IPv6, 🇭🇰香港05-流媒体解锁, 🇭🇰香港06-流媒体解锁, 🇸🇬新加坡01-流媒体解锁, 🇸🇬新加坡02-流媒体解锁, 🇸🇬新加坡03, 🇸🇬新加坡04, 🇰🇷韩国-家宽03, 🇰🇷韩国-家宽04, 🇨🇳台湾01-Gpt, 🇨🇳台湾02-Gpt, 🇨🇳台湾03-Gpt, 🇨🇳台湾04-Gpt, 🇯🇵日本01, 🇯🇵日本02, 🇯🇵日本03, 🇯🇵日本04, 🇨🇦加拿大01, 🇨🇦加拿大02, 🇺🇸美国凤凰城01, 🇺🇸美国凤凰城02, 🇺🇸美国拉斯维加斯01, 🇺🇸美国拉斯维加斯02, 🇩🇪德国01, 🇩🇪德国02, 🇬🇧英国01, 🇬🇧英国02, '只显示此节点,请更新你的客户端', '🇺🇸拉斯维加斯01-下载&防失联-0.1X', '🇺🇸拉斯维加斯02-下载&防失联-0.1X', '🇺🇸拉斯维加斯03-下载&防失联-0.1X', '🇺🇸拉斯维加斯04-下载&防失联-0.1X'], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
 rules:
-    - 'IP-CIDR,141.101.120.240/32,DIRECT,no-resolve'
-    - 'IP-CIDR,141.101.121.80/32,DIRECT,no-resolve'
+    - 'IP-CIDR,141.101.120.165/32,DIRECT,no-resolve'
+    - 'IP-CIDR,141.101.120.237/32,DIRECT,no-resolve'
     - 'IP-CIDR,69.16.230.165/32,DIRECT,no-resolve'
-    - 'IP-CIDR,104.21.72.233/32,DIRECT,no-resolve'
     - 'IP-CIDR,172.67.155.172/32,DIRECT,no-resolve'
+    - 'IP-CIDR,104.21.72.233/32,DIRECT,no-resolve'
+    - 'IP-CIDR,104.17.25.173/32,DIRECT,no-resolve'
+    - 'IP-CIDR,104.16.250.22/32,DIRECT,no-resolve'
     - 'IP-CIDR,104.21.227.134/32,DIRECT,no-resolve'
     - 'IP-CIDR,104.21.224.5/32,DIRECT,no-resolve'
     - 'IP-CIDR,104.18.185.26/32,DIRECT,no-resolve'
-    - 'IP-CIDR,104.17.25.173/32,DIRECT,no-resolve'
-    - 'IP-CIDR,104.16.250.22/32,DIRECT,no-resolve'
     - 'IP-CIDR,91.149.202.185/32,DIRECT,no-resolve'
     - 'IP-CIDR,185.161.251.40/32,DIRECT,no-resolve'
     - 'IP-CIDR,147.45.177.95/32,DIRECT,no-resolve'
@@ -99,10 +99,10 @@ rules:
     - 'IP-CIDR,38.180.191.46/32,DIRECT,no-resolve'
     - 'IP-CIDR,151.243.22.81/32,DIRECT,no-resolve'
     - 'IP-CIDR,151.243.22.20/32,DIRECT,no-resolve'
-    - 'IP-CIDR,120.237.215.27/32,DIRECT,no-resolve'
-    - 'IP-CIDR,120.237.215.30/32,DIRECT,no-resolve'
-    - 'IP-CIDR,120.238.89.150/32,DIRECT,no-resolve'
     - 'IP-CIDR,120.237.215.26/32,DIRECT,no-resolve'
+    - 'IP-CIDR,120.237.215.30/32,DIRECT,no-resolve'
+    - 'IP-CIDR,120.237.215.27/32,DIRECT,no-resolve'
+    - 'IP-CIDR,120.238.89.150/32,DIRECT,no-resolve'
     - 'DOMAIN,zhuzhusub.66jc.top,DIRECT'
     - 'DOMAIN-SUFFIX,services.googleapis.cn,🐮牛逼'
     - 'DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🐮牛逼'

@@ -14,7 +14,7 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: '剩余流量：354.24 GB', type: ss, server: hzyd.sevenka.top, port: 36921, cipher: chacha20-ietf-poly1305, password: e934bb0d-790a-42d8-acea-c7ce7d5a4e21, udp: true }
+    - { name: '剩余流量：353.92 GB', type: ss, server: hzyd.sevenka.top, port: 36921, cipher: chacha20-ietf-poly1305, password: e934bb0d-790a-42d8-acea-c7ce7d5a4e21, udp: true }
     - { name: '距离下次重置剩余：9 天', type: ss, server: hzyd.sevenka.top, port: 36921, cipher: chacha20-ietf-poly1305, password: e934bb0d-790a-42d8-acea-c7ce7d5a4e21, udp: true }
     - { name: 套餐到期：2025-06-30, type: ss, server: hzyd.sevenka.top, port: 36921, cipher: chacha20-ietf-poly1305, password: e934bb0d-790a-42d8-acea-c7ce7d5a4e21, udp: true }
     - { name: 防失联hd.m2cloud.sbs, type: ss, server: hzyd.sevenka.top, port: 36921, cipher: chacha20-ietf-poly1305, password: e934bb0d-790a-42d8-acea-c7ce7d5a4e21, udp: true }
@@ -76,18 +76,18 @@ proxies:
     - { name: 🇺🇸美国3-直连, type: vmess, server: m2bba1.maocf1.top, port: 2052, uuid: e934bb0d-790a-42d8-acea-c7ce7d5a4e21, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: '/?ed=2560', headers: { Host: lswjs.maocf1.top } }, ws-path: '/?ed=2560', ws-headers: { Host: lswjs.maocf1.top } }
     - { name: 🇺🇸美国4-直连, type: vmess, server: m2bba2.maocf1.top, port: 2052, uuid: e934bb0d-790a-42d8-acea-c7ce7d5a4e21, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: '/?ed=2560', headers: { Host: lswjs.maocf1.top } }, ws-path: '/?ed=2560', ws-headers: { Host: lswjs.maocf1.top } }
 proxy-groups:
-    - { name: 猫耳云, type: select, proxies: [自动选择, 故障转移, '剩余流量：354.24 GB', '距离下次重置剩余：9 天', 套餐到期：2025-06-30, 防失联hd.m2cloud.sbs, 官网ht.idsduf.com, '群:t.me/m2cloudvpn', 🇭🇰香港1-IPv6, 🇭🇰香港2-IPv6, 🇭🇰香港3-GPT, 🇭🇰香港4-GPT, 🇭🇰香港5-IPv6, 🇭🇰香港6-IPv6, 🇸🇬新加坡1-IPv6, 🇸🇬新加坡2-IPv6, 🇸🇬新加坡3, 🇸🇬新加坡4, 🇯🇵日本1-IPv6, 🇯🇵日本2-IPv6, 🇯🇵日本3-东京, 🇯🇵日本4-东京, 🇨🇳台湾1-IPv6-优化, 🇨🇳台湾2-IPv6-优化, 🇨🇳台湾3, 🇨🇳台湾4, 🇨🇳台湾5, 🇨🇳台湾6, 🇰🇷韩国1, 🇰🇷韩国2, 🇺🇸美国1-IPv6, 🇺🇸美国2-IPv6, 🇺🇸美国3, 🇺🇸美国4, 🇹🇭泰国, 🇻🇳越南2, 🇵🇭菲律宾, 🇲🇲缅甸, 🇰🇭柬埔寨, 🇮🇩印尼, 🇦🇺澳大利亚, 🇦🇪阿联酋, 🇮🇳印度1, 🇩🇪德国1, 🇿🇦南非, 🇬🇧英国, 🇷🇺俄罗斯, 🇮🇹意大利, 🇫🇷法国1, 🇨🇦加拿大, 🇳🇱荷兰, 🇵🇱波兰, 🇪🇸西班牙, 🇧🇷巴西, 🇳🇬尼日利亚, 🇹🇷土耳其, 🇭🇰香港-HY2应急线路, 🇨🇳台湾-HY2, 🇸🇬新加坡-HY2, 🇺🇸美国-HY2, 🇮🇩印尼-HY2, 🇺🇸美国3-直连, 🇺🇸美国4-直连] }
-    - { name: 自动选择, type: url-test, proxies: ['剩余流量：354.24 GB', '距离下次重置剩余：9 天', 套餐到期：2025-06-30, 防失联hd.m2cloud.sbs, 官网ht.idsduf.com, '群:t.me/m2cloudvpn', 🇭🇰香港1-IPv6, 🇭🇰香港2-IPv6, 🇭🇰香港3-GPT, 🇭🇰香港4-GPT, 🇭🇰香港5-IPv6, 🇭🇰香港6-IPv6, 🇸🇬新加坡1-IPv6, 🇸🇬新加坡2-IPv6, 🇸🇬新加坡3, 🇸🇬新加坡4, 🇯🇵日本1-IPv6, 🇯🇵日本2-IPv6, 🇯🇵日本3-东京, 🇯🇵日本4-东京, 🇨🇳台湾1-IPv6-优化, 🇨🇳台湾2-IPv6-优化, 🇨🇳台湾3, 🇨🇳台湾4, 🇨🇳台湾5, 🇨🇳台湾6, 🇰🇷韩国1, 🇰🇷韩国2, 🇺🇸美国1-IPv6, 🇺🇸美国2-IPv6, 🇺🇸美国3, 🇺🇸美国4, 🇹🇭泰国, 🇻🇳越南2, 🇵🇭菲律宾, 🇲🇲缅甸, 🇰🇭柬埔寨, 🇮🇩印尼, 🇦🇺澳大利亚, 🇦🇪阿联酋, 🇮🇳印度1, 🇩🇪德国1, 🇿🇦南非, 🇬🇧英国, 🇷🇺俄罗斯, 🇮🇹意大利, 🇫🇷法国1, 🇨🇦加拿大, 🇳🇱荷兰, 🇵🇱波兰, 🇪🇸西班牙, 🇧🇷巴西, 🇳🇬尼日利亚, 🇹🇷土耳其, 🇭🇰香港-HY2应急线路, 🇨🇳台湾-HY2, 🇸🇬新加坡-HY2, 🇺🇸美国-HY2, 🇮🇩印尼-HY2, 🇺🇸美国3-直连, 🇺🇸美国4-直连], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
-    - { name: 故障转移, type: fallback, proxies: ['剩余流量：354.24 GB', '距离下次重置剩余：9 天', 套餐到期：2025-06-30, 防失联hd.m2cloud.sbs, 官网ht.idsduf.com, '群:t.me/m2cloudvpn', 🇭🇰香港1-IPv6, 🇭🇰香港2-IPv6, 🇭🇰香港3-GPT, 🇭🇰香港4-GPT, 🇭🇰香港5-IPv6, 🇭🇰香港6-IPv6, 🇸🇬新加坡1-IPv6, 🇸🇬新加坡2-IPv6, 🇸🇬新加坡3, 🇸🇬新加坡4, 🇯🇵日本1-IPv6, 🇯🇵日本2-IPv6, 🇯🇵日本3-东京, 🇯🇵日本4-东京, 🇨🇳台湾1-IPv6-优化, 🇨🇳台湾2-IPv6-优化, 🇨🇳台湾3, 🇨🇳台湾4, 🇨🇳台湾5, 🇨🇳台湾6, 🇰🇷韩国1, 🇰🇷韩国2, 🇺🇸美国1-IPv6, 🇺🇸美国2-IPv6, 🇺🇸美国3, 🇺🇸美国4, 🇹🇭泰国, 🇻🇳越南2, 🇵🇭菲律宾, 🇲🇲缅甸, 🇰🇭柬埔寨, 🇮🇩印尼, 🇦🇺澳大利亚, 🇦🇪阿联酋, 🇮🇳印度1, 🇩🇪德国1, 🇿🇦南非, 🇬🇧英国, 🇷🇺俄罗斯, 🇮🇹意大利, 🇫🇷法国1, 🇨🇦加拿大, 🇳🇱荷兰, 🇵🇱波兰, 🇪🇸西班牙, 🇧🇷巴西, 🇳🇬尼日利亚, 🇹🇷土耳其, 🇭🇰香港-HY2应急线路, 🇨🇳台湾-HY2, 🇸🇬新加坡-HY2, 🇺🇸美国-HY2, 🇮🇩印尼-HY2, 🇺🇸美国3-直连, 🇺🇸美国4-直连], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
+    - { name: 猫耳云, type: select, proxies: [自动选择, 故障转移, '剩余流量：353.92 GB', '距离下次重置剩余：9 天', 套餐到期：2025-06-30, 防失联hd.m2cloud.sbs, 官网ht.idsduf.com, '群:t.me/m2cloudvpn', 🇭🇰香港1-IPv6, 🇭🇰香港2-IPv6, 🇭🇰香港3-GPT, 🇭🇰香港4-GPT, 🇭🇰香港5-IPv6, 🇭🇰香港6-IPv6, 🇸🇬新加坡1-IPv6, 🇸🇬新加坡2-IPv6, 🇸🇬新加坡3, 🇸🇬新加坡4, 🇯🇵日本1-IPv6, 🇯🇵日本2-IPv6, 🇯🇵日本3-东京, 🇯🇵日本4-东京, 🇨🇳台湾1-IPv6-优化, 🇨🇳台湾2-IPv6-优化, 🇨🇳台湾3, 🇨🇳台湾4, 🇨🇳台湾5, 🇨🇳台湾6, 🇰🇷韩国1, 🇰🇷韩国2, 🇺🇸美国1-IPv6, 🇺🇸美国2-IPv6, 🇺🇸美国3, 🇺🇸美国4, 🇹🇭泰国, 🇻🇳越南2, 🇵🇭菲律宾, 🇲🇲缅甸, 🇰🇭柬埔寨, 🇮🇩印尼, 🇦🇺澳大利亚, 🇦🇪阿联酋, 🇮🇳印度1, 🇩🇪德国1, 🇿🇦南非, 🇬🇧英国, 🇷🇺俄罗斯, 🇮🇹意大利, 🇫🇷法国1, 🇨🇦加拿大, 🇳🇱荷兰, 🇵🇱波兰, 🇪🇸西班牙, 🇧🇷巴西, 🇳🇬尼日利亚, 🇹🇷土耳其, 🇭🇰香港-HY2应急线路, 🇨🇳台湾-HY2, 🇸🇬新加坡-HY2, 🇺🇸美国-HY2, 🇮🇩印尼-HY2, 🇺🇸美国3-直连, 🇺🇸美国4-直连] }
+    - { name: 自动选择, type: url-test, proxies: ['剩余流量：353.92 GB', '距离下次重置剩余：9 天', 套餐到期：2025-06-30, 防失联hd.m2cloud.sbs, 官网ht.idsduf.com, '群:t.me/m2cloudvpn', 🇭🇰香港1-IPv6, 🇭🇰香港2-IPv6, 🇭🇰香港3-GPT, 🇭🇰香港4-GPT, 🇭🇰香港5-IPv6, 🇭🇰香港6-IPv6, 🇸🇬新加坡1-IPv6, 🇸🇬新加坡2-IPv6, 🇸🇬新加坡3, 🇸🇬新加坡4, 🇯🇵日本1-IPv6, 🇯🇵日本2-IPv6, 🇯🇵日本3-东京, 🇯🇵日本4-东京, 🇨🇳台湾1-IPv6-优化, 🇨🇳台湾2-IPv6-优化, 🇨🇳台湾3, 🇨🇳台湾4, 🇨🇳台湾5, 🇨🇳台湾6, 🇰🇷韩国1, 🇰🇷韩国2, 🇺🇸美国1-IPv6, 🇺🇸美国2-IPv6, 🇺🇸美国3, 🇺🇸美国4, 🇹🇭泰国, 🇻🇳越南2, 🇵🇭菲律宾, 🇲🇲缅甸, 🇰🇭柬埔寨, 🇮🇩印尼, 🇦🇺澳大利亚, 🇦🇪阿联酋, 🇮🇳印度1, 🇩🇪德国1, 🇿🇦南非, 🇬🇧英国, 🇷🇺俄罗斯, 🇮🇹意大利, 🇫🇷法国1, 🇨🇦加拿大, 🇳🇱荷兰, 🇵🇱波兰, 🇪🇸西班牙, 🇧🇷巴西, 🇳🇬尼日利亚, 🇹🇷土耳其, 🇭🇰香港-HY2应急线路, 🇨🇳台湾-HY2, 🇸🇬新加坡-HY2, 🇺🇸美国-HY2, 🇮🇩印尼-HY2, 🇺🇸美国3-直连, 🇺🇸美国4-直连], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+    - { name: 故障转移, type: fallback, proxies: ['剩余流量：353.92 GB', '距离下次重置剩余：9 天', 套餐到期：2025-06-30, 防失联hd.m2cloud.sbs, 官网ht.idsduf.com, '群:t.me/m2cloudvpn', 🇭🇰香港1-IPv6, 🇭🇰香港2-IPv6, 🇭🇰香港3-GPT, 🇭🇰香港4-GPT, 🇭🇰香港5-IPv6, 🇭🇰香港6-IPv6, 🇸🇬新加坡1-IPv6, 🇸🇬新加坡2-IPv6, 🇸🇬新加坡3, 🇸🇬新加坡4, 🇯🇵日本1-IPv6, 🇯🇵日本2-IPv6, 🇯🇵日本3-东京, 🇯🇵日本4-东京, 🇨🇳台湾1-IPv6-优化, 🇨🇳台湾2-IPv6-优化, 🇨🇳台湾3, 🇨🇳台湾4, 🇨🇳台湾5, 🇨🇳台湾6, 🇰🇷韩国1, 🇰🇷韩国2, 🇺🇸美国1-IPv6, 🇺🇸美国2-IPv6, 🇺🇸美国3, 🇺🇸美国4, 🇹🇭泰国, 🇻🇳越南2, 🇵🇭菲律宾, 🇲🇲缅甸, 🇰🇭柬埔寨, 🇮🇩印尼, 🇦🇺澳大利亚, 🇦🇪阿联酋, 🇮🇳印度1, 🇩🇪德国1, 🇿🇦南非, 🇬🇧英国, 🇷🇺俄罗斯, 🇮🇹意大利, 🇫🇷法国1, 🇨🇦加拿大, 🇳🇱荷兰, 🇵🇱波兰, 🇪🇸西班牙, 🇧🇷巴西, 🇳🇬尼日利亚, 🇹🇷土耳其, 🇭🇰香港-HY2应急线路, 🇨🇳台湾-HY2, 🇸🇬新加坡-HY2, 🇺🇸美国-HY2, 🇮🇩印尼-HY2, 🇺🇸美国3-直连, 🇺🇸美国4-直连], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
 rules:
     - 'IP-CIDR,104.26.13.31/32,DIRECT,no-resolve'
-    - 'IP-CIDR,104.26.12.31/32,DIRECT,no-resolve'
     - 'IP-CIDR,172.67.75.172/32,DIRECT,no-resolve'
-    - 'IP-CIDR,104.18.185.26/32,DIRECT,no-resolve'
-    - 'IP-CIDR,104.17.25.173/32,DIRECT,no-resolve'
-    - 'IP-CIDR,104.16.250.22/32,DIRECT,no-resolve'
+    - 'IP-CIDR,104.26.12.31/32,DIRECT,no-resolve'
     - 'IP-CIDR,104.21.227.134/32,DIRECT,no-resolve'
+    - 'IP-CIDR,104.17.25.173/32,DIRECT,no-resolve'
     - 'IP-CIDR,104.21.224.5/32,DIRECT,no-resolve'
+    - 'IP-CIDR,104.16.250.22/32,DIRECT,no-resolve'
+    - 'IP-CIDR,104.18.185.26/32,DIRECT,no-resolve'
     - 'IP-CIDR,38.244.146.18/32,DIRECT,no-resolve'
     - 'IP-CIDR,205.185.116.67/32,DIRECT,no-resolve'
     - 'IP-CIDR,185.206.249.158/32,DIRECT,no-resolve'
