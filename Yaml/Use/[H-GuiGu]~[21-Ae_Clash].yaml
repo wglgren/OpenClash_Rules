@@ -5,6 +5,7 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: "[SS] 套餐到期：长期有效", server: chiyu-5g.huawei-cloud.vip, port: 17991, type: ss, cipher: chacha20-ietf-poly1305, password: c29a1e79-e0f8-487f-9c6f-23b27a0eb424, udp: true}
   - {name: "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x", server: xy.223686.xyz, port: 27459, type: ss, cipher: chacha20-ietf-poly1305, password: c29a1e79-e0f8-487f-9c6f-23b27a0eb424, udp: true}
   - {name: "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x", server: hyper.huawei-cloud.vip, port: 40468, type: ss, cipher: chacha20-ietf-poly1305, password: c29a1e79-e0f8-487f-9c6f-23b27a0eb424, udp: true}
   - {name: "[SS] 🇦🇺 澳大利亚｜原生｜2x", server: chiyu-5g.huawei-cloud.vip, port: 25449, type: ss, cipher: chacha20-ietf-poly1305, password: c29a1e79-e0f8-487f-9c6f-23b27a0eb424, udp: true}
@@ -24,7 +25,6 @@ proxies:
   - {name: "[SS] 🇭🇰 香港｜免广告-电信专用｜2x", server: dianxin.huawei-cloud.vip, port: 11794, type: ss, cipher: chacha20-ietf-poly1305, password: c29a1e79-e0f8-487f-9c6f-23b27a0eb424, udp: true}
   - {name: "[SS] 🇭🇰 香港｜免广告｜1x", server: chiyu-5g.huawei-cloud.vip, port: 44612, type: ss, cipher: chacha20-ietf-poly1305, password: c29a1e79-e0f8-487f-9c6f-23b27a0eb424, udp: true}
   - {name: "[SS] 🇭🇰 香港｜流媒体｜1x", server: chiyu-5g.huawei-cloud.vip, port: 36977, type: ss, cipher: chacha20-ietf-poly1305, password: c29a1e79-e0f8-487f-9c6f-23b27a0eb424, udp: true}
-  - {name: "[SS] 🇭🇰 香港｜游戏专线｜8x", server: ali-sz.huawei-cloud.vip, port: 45426, type: ss, cipher: chacha20-ietf-poly1305, password: c29a1e79-e0f8-487f-9c6f-23b27a0eb424, udp: true}
   - {name: "[SS] 🇭🇰 香港｜电信专用｜2x", server: dianxin.huawei-cloud.vip, port: 25302, type: ss, cipher: chacha20-ietf-poly1305, password: c29a1e79-e0f8-487f-9c6f-23b27a0eb424, udp: true}
   - {name: "[SS] 🇭🇰 香港｜高速｜1x", server: chiyu-5g.huawei-cloud.vip, port: 17991, type: ss, cipher: chacha20-ietf-poly1305, password: c29a1e79-e0f8-487f-9c6f-23b27a0eb424, udp: true}
   - {name: "[SS] 🇯🇵 日本｜ emby 专用｜0.8x", server: chiyu-5g.huawei-cloud.vip, port: 16536, type: ss, cipher: chacha20-ietf-poly1305, password: c29a1e79-e0f8-487f-9c6f-23b27a0eb424, udp: true}
@@ -51,6 +51,7 @@ proxies:
   - {name: "[VLESS] 🇺🇸 美国｜下载节点｜0.3x", server: dv.huawei-cloud.vip, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c29a1e79-e0f8-487f-9c6f-23b27a0eb424, servername: www.bing.com, flow: xtls-rprx-vision, reality-opts: {public-key: DauRpz8lod7VcDkTkyHYCVB3buEcVWxjn-jvMxBp-hA, short-id: af9504}, client-fingerprint: random, skip-cert-verify: true, udp: true}
   - {name: "[SS] 🇻🇳 越南｜三网IEPL｜3x", server: hyper.huawei-cloud.vip, port: 49491, type: ss, cipher: chacha20-ietf-poly1305, password: c29a1e79-e0f8-487f-9c6f-23b27a0eb424, udp: true}
   - {name: "[SS] 🇻🇳 越南｜原生｜2x", server: chiyu-5g.huawei-cloud.vip, port: 12105, type: ss, cipher: chacha20-ietf-poly1305, password: c29a1e79-e0f8-487f-9c6f-23b27a0eb424, udp: true}
+  - {name: "[SS] 🏳️‍🌈 剩余流量：6155.75 GB", server: chiyu-5g.huawei-cloud.vip, port: 17991, type: ss, cipher: chacha20-ietf-poly1305, password: c29a1e79-e0f8-487f-9c6f-23b27a0eb424, udp: true}
   - {name: "[SS] 🏳️‍🌈 日本｜大流量｜0.8x", server: chiyu-5g.huawei-cloud.vip, port: 16536, type: ss, cipher: chacha20-ietf-poly1305, password: c29a1e79-e0f8-487f-9c6f-23b27a0eb424, udp: true}
 proxy-groups:
   - name: 🚀 手动选择
@@ -70,6 +71,7 @@ proxy-groups:
       - 🇳🇱 荷兰节点
       - 🇹🇷 土耳其节点
       - 🌐 其他地区
+      - "[SS] 套餐到期：长期有效"
       - "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x"
       - "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x"
       - "[SS] 🇦🇺 澳大利亚｜原生｜2x"
@@ -89,7 +91,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港｜免广告-电信专用｜2x"
       - "[SS] 🇭🇰 香港｜免广告｜1x"
       - "[SS] 🇭🇰 香港｜流媒体｜1x"
-      - "[SS] 🇭🇰 香港｜游戏专线｜8x"
       - "[SS] 🇭🇰 香港｜电信专用｜2x"
       - "[SS] 🇭🇰 香港｜高速｜1x"
       - "[SS] 🇯🇵 日本｜ emby 专用｜0.8x"
@@ -116,6 +117,7 @@ proxy-groups:
       - "[VLESS] 🇺🇸 美国｜下载节点｜0.3x"
       - "[SS] 🇻🇳 越南｜三网IEPL｜3x"
       - "[SS] 🇻🇳 越南｜原生｜2x"
+      - "[SS] 🏳️‍🌈 剩余流量：6155.75 GB"
       - "[SS] 🏳️‍🌈 日本｜大流量｜0.8x"
   - name: ♻️ 自动选择
     type: url-test
@@ -123,6 +125,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - "[SS] 套餐到期：长期有效"
       - "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x"
       - "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x"
       - "[SS] 🇦🇺 澳大利亚｜原生｜2x"
@@ -142,7 +145,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港｜免广告-电信专用｜2x"
       - "[SS] 🇭🇰 香港｜免广告｜1x"
       - "[SS] 🇭🇰 香港｜流媒体｜1x"
-      - "[SS] 🇭🇰 香港｜游戏专线｜8x"
       - "[SS] 🇭🇰 香港｜电信专用｜2x"
       - "[SS] 🇭🇰 香港｜高速｜1x"
       - "[SS] 🇯🇵 日本｜ emby 专用｜0.8x"
@@ -169,6 +171,7 @@ proxy-groups:
       - "[VLESS] 🇺🇸 美国｜下载节点｜0.3x"
       - "[SS] 🇻🇳 越南｜三网IEPL｜3x"
       - "[SS] 🇻🇳 越南｜原生｜2x"
+      - "[SS] 🏳️‍🌈 剩余流量：6155.75 GB"
       - "[SS] 🏳️‍🌈 日本｜大流量｜0.8x"
   - name: 💬 即时通讯
     type: select
@@ -206,6 +209,7 @@ proxy-groups:
       - 🌐 其他地区
       - 🚀 手动选择
       - ♻️ 自动选择
+      - "[SS] 套餐到期：长期有效"
       - "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x"
       - "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x"
       - "[SS] 🇦🇺 澳大利亚｜原生｜2x"
@@ -225,7 +229,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港｜免广告-电信专用｜2x"
       - "[SS] 🇭🇰 香港｜免广告｜1x"
       - "[SS] 🇭🇰 香港｜流媒体｜1x"
-      - "[SS] 🇭🇰 香港｜游戏专线｜8x"
       - "[SS] 🇭🇰 香港｜电信专用｜2x"
       - "[SS] 🇭🇰 香港｜高速｜1x"
       - "[SS] 🇯🇵 日本｜ emby 专用｜0.8x"
@@ -252,6 +255,7 @@ proxy-groups:
       - "[VLESS] 🇺🇸 美国｜下载节点｜0.3x"
       - "[SS] 🇻🇳 越南｜三网IEPL｜3x"
       - "[SS] 🇻🇳 越南｜原生｜2x"
+      - "[SS] 🏳️‍🌈 剩余流量：6155.75 GB"
       - "[SS] 🏳️‍🌈 日本｜大流量｜0.8x"
   - name: 🚀 GitHub
     type: select
@@ -290,6 +294,7 @@ proxy-groups:
       - 🌐 其他地区
       - 🚀 手动选择
       - ♻️ 自动选择
+      - "[SS] 套餐到期：长期有效"
       - "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x"
       - "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x"
       - "[SS] 🇦🇺 澳大利亚｜原生｜2x"
@@ -309,7 +314,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港｜免广告-电信专用｜2x"
       - "[SS] 🇭🇰 香港｜免广告｜1x"
       - "[SS] 🇭🇰 香港｜流媒体｜1x"
-      - "[SS] 🇭🇰 香港｜游戏专线｜8x"
       - "[SS] 🇭🇰 香港｜电信专用｜2x"
       - "[SS] 🇭🇰 香港｜高速｜1x"
       - "[SS] 🇯🇵 日本｜ emby 专用｜0.8x"
@@ -336,6 +340,7 @@ proxy-groups:
       - "[VLESS] 🇺🇸 美国｜下载节点｜0.3x"
       - "[SS] 🇻🇳 越南｜三网IEPL｜3x"
       - "[SS] 🇻🇳 越南｜原生｜2x"
+      - "[SS] 🏳️‍🌈 剩余流量：6155.75 GB"
       - "[SS] 🏳️‍🌈 日本｜大流量｜0.8x"
   - name: 🤖 Copilot
     type: select
@@ -356,6 +361,7 @@ proxy-groups:
       - 🚀 手动选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "[SS] 套餐到期：长期有效"
       - "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x"
       - "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x"
       - "[SS] 🇦🇺 澳大利亚｜原生｜2x"
@@ -375,7 +381,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港｜免广告-电信专用｜2x"
       - "[SS] 🇭🇰 香港｜免广告｜1x"
       - "[SS] 🇭🇰 香港｜流媒体｜1x"
-      - "[SS] 🇭🇰 香港｜游戏专线｜8x"
       - "[SS] 🇭🇰 香港｜电信专用｜2x"
       - "[SS] 🇭🇰 香港｜高速｜1x"
       - "[SS] 🇯🇵 日本｜ emby 专用｜0.8x"
@@ -402,6 +407,7 @@ proxy-groups:
       - "[VLESS] 🇺🇸 美国｜下载节点｜0.3x"
       - "[SS] 🇻🇳 越南｜三网IEPL｜3x"
       - "[SS] 🇻🇳 越南｜原生｜2x"
+      - "[SS] 🏳️‍🌈 剩余流量：6155.75 GB"
       - "[SS] 🏳️‍🌈 日本｜大流量｜0.8x"
   - name: 🤖 AI服务
     type: select
@@ -421,6 +427,7 @@ proxy-groups:
       - 🌐 其他地区
       - 🚀 手动选择
       - ♻️ 自动选择
+      - "[SS] 套餐到期：长期有效"
       - "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x"
       - "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x"
       - "[SS] 🇦🇺 澳大利亚｜原生｜2x"
@@ -440,7 +447,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港｜免广告-电信专用｜2x"
       - "[SS] 🇭🇰 香港｜免广告｜1x"
       - "[SS] 🇭🇰 香港｜流媒体｜1x"
-      - "[SS] 🇭🇰 香港｜游戏专线｜8x"
       - "[SS] 🇭🇰 香港｜电信专用｜2x"
       - "[SS] 🇭🇰 香港｜高速｜1x"
       - "[SS] 🇯🇵 日本｜ emby 专用｜0.8x"
@@ -467,6 +473,7 @@ proxy-groups:
       - "[VLESS] 🇺🇸 美国｜下载节点｜0.3x"
       - "[SS] 🇻🇳 越南｜三网IEPL｜3x"
       - "[SS] 🇻🇳 越南｜原生｜2x"
+      - "[SS] 🏳️‍🌈 剩余流量：6155.75 GB"
       - "[SS] 🏳️‍🌈 日本｜大流量｜0.8x"
   - name: 🎶 TikTok
     type: select
@@ -487,6 +494,7 @@ proxy-groups:
       - 🚀 手动选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "[SS] 套餐到期：长期有效"
       - "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x"
       - "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x"
       - "[SS] 🇦🇺 澳大利亚｜原生｜2x"
@@ -506,7 +514,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港｜免广告-电信专用｜2x"
       - "[SS] 🇭🇰 香港｜免广告｜1x"
       - "[SS] 🇭🇰 香港｜流媒体｜1x"
-      - "[SS] 🇭🇰 香港｜游戏专线｜8x"
       - "[SS] 🇭🇰 香港｜电信专用｜2x"
       - "[SS] 🇭🇰 香港｜高速｜1x"
       - "[SS] 🇯🇵 日本｜ emby 专用｜0.8x"
@@ -533,6 +540,7 @@ proxy-groups:
       - "[VLESS] 🇺🇸 美国｜下载节点｜0.3x"
       - "[SS] 🇻🇳 越南｜三网IEPL｜3x"
       - "[SS] 🇻🇳 越南｜原生｜2x"
+      - "[SS] 🏳️‍🌈 剩余流量：6155.75 GB"
       - "[SS] 🏳️‍🌈 日本｜大流量｜0.8x"
   - name: 📹 YouTube
     type: select
@@ -552,6 +560,7 @@ proxy-groups:
       - 🌐 其他地区
       - 🚀 手动选择
       - ♻️ 自动选择
+      - "[SS] 套餐到期：长期有效"
       - "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x"
       - "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x"
       - "[SS] 🇦🇺 澳大利亚｜原生｜2x"
@@ -571,7 +580,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港｜免广告-电信专用｜2x"
       - "[SS] 🇭🇰 香港｜免广告｜1x"
       - "[SS] 🇭🇰 香港｜流媒体｜1x"
-      - "[SS] 🇭🇰 香港｜游戏专线｜8x"
       - "[SS] 🇭🇰 香港｜电信专用｜2x"
       - "[SS] 🇭🇰 香港｜高速｜1x"
       - "[SS] 🇯🇵 日本｜ emby 专用｜0.8x"
@@ -598,6 +606,7 @@ proxy-groups:
       - "[VLESS] 🇺🇸 美国｜下载节点｜0.3x"
       - "[SS] 🇻🇳 越南｜三网IEPL｜3x"
       - "[SS] 🇻🇳 越南｜原生｜2x"
+      - "[SS] 🏳️‍🌈 剩余流量：6155.75 GB"
       - "[SS] 🏳️‍🌈 日本｜大流量｜0.8x"
   - name: 🎥 Netflix
     type: select
@@ -617,6 +626,7 @@ proxy-groups:
       - 🌐 其他地区
       - 🚀 手动选择
       - ♻️ 自动选择
+      - "[SS] 套餐到期：长期有效"
       - "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x"
       - "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x"
       - "[SS] 🇦🇺 澳大利亚｜原生｜2x"
@@ -636,7 +646,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港｜免广告-电信专用｜2x"
       - "[SS] 🇭🇰 香港｜免广告｜1x"
       - "[SS] 🇭🇰 香港｜流媒体｜1x"
-      - "[SS] 🇭🇰 香港｜游戏专线｜8x"
       - "[SS] 🇭🇰 香港｜电信专用｜2x"
       - "[SS] 🇭🇰 香港｜高速｜1x"
       - "[SS] 🇯🇵 日本｜ emby 专用｜0.8x"
@@ -663,6 +672,7 @@ proxy-groups:
       - "[VLESS] 🇺🇸 美国｜下载节点｜0.3x"
       - "[SS] 🇻🇳 越南｜三网IEPL｜3x"
       - "[SS] 🇻🇳 越南｜原生｜2x"
+      - "[SS] 🏳️‍🌈 剩余流量：6155.75 GB"
       - "[SS] 🏳️‍🌈 日本｜大流量｜0.8x"
   - name: 🎥 DisneyPlus
     type: select
@@ -682,6 +692,7 @@ proxy-groups:
       - 🌐 其他地区
       - 🚀 手动选择
       - ♻️ 自动选择
+      - "[SS] 套餐到期：长期有效"
       - "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x"
       - "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x"
       - "[SS] 🇦🇺 澳大利亚｜原生｜2x"
@@ -701,7 +712,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港｜免广告-电信专用｜2x"
       - "[SS] 🇭🇰 香港｜免广告｜1x"
       - "[SS] 🇭🇰 香港｜流媒体｜1x"
-      - "[SS] 🇭🇰 香港｜游戏专线｜8x"
       - "[SS] 🇭🇰 香港｜电信专用｜2x"
       - "[SS] 🇭🇰 香港｜高速｜1x"
       - "[SS] 🇯🇵 日本｜ emby 专用｜0.8x"
@@ -728,6 +738,7 @@ proxy-groups:
       - "[VLESS] 🇺🇸 美国｜下载节点｜0.3x"
       - "[SS] 🇻🇳 越南｜三网IEPL｜3x"
       - "[SS] 🇻🇳 越南｜原生｜2x"
+      - "[SS] 🏳️‍🌈 剩余流量：6155.75 GB"
       - "[SS] 🏳️‍🌈 日本｜大流量｜0.8x"
   - name: 🎥 HBO
     type: select
@@ -748,6 +759,7 @@ proxy-groups:
       - 🚀 手动选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "[SS] 套餐到期：长期有效"
       - "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x"
       - "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x"
       - "[SS] 🇦🇺 澳大利亚｜原生｜2x"
@@ -767,7 +779,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港｜免广告-电信专用｜2x"
       - "[SS] 🇭🇰 香港｜免广告｜1x"
       - "[SS] 🇭🇰 香港｜流媒体｜1x"
-      - "[SS] 🇭🇰 香港｜游戏专线｜8x"
       - "[SS] 🇭🇰 香港｜电信专用｜2x"
       - "[SS] 🇭🇰 香港｜高速｜1x"
       - "[SS] 🇯🇵 日本｜ emby 专用｜0.8x"
@@ -794,6 +805,7 @@ proxy-groups:
       - "[VLESS] 🇺🇸 美国｜下载节点｜0.3x"
       - "[SS] 🇻🇳 越南｜三网IEPL｜3x"
       - "[SS] 🇻🇳 越南｜原生｜2x"
+      - "[SS] 🏳️‍🌈 剩余流量：6155.75 GB"
       - "[SS] 🏳️‍🌈 日本｜大流量｜0.8x"
   - name: 🎥 PrimeVideo
     type: select
@@ -814,6 +826,7 @@ proxy-groups:
       - 🚀 手动选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "[SS] 套餐到期：长期有效"
       - "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x"
       - "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x"
       - "[SS] 🇦🇺 澳大利亚｜原生｜2x"
@@ -833,7 +846,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港｜免广告-电信专用｜2x"
       - "[SS] 🇭🇰 香港｜免广告｜1x"
       - "[SS] 🇭🇰 香港｜流媒体｜1x"
-      - "[SS] 🇭🇰 香港｜游戏专线｜8x"
       - "[SS] 🇭🇰 香港｜电信专用｜2x"
       - "[SS] 🇭🇰 香港｜高速｜1x"
       - "[SS] 🇯🇵 日本｜ emby 专用｜0.8x"
@@ -860,6 +872,7 @@ proxy-groups:
       - "[VLESS] 🇺🇸 美国｜下载节点｜0.3x"
       - "[SS] 🇻🇳 越南｜三网IEPL｜3x"
       - "[SS] 🇻🇳 越南｜原生｜2x"
+      - "[SS] 🏳️‍🌈 剩余流量：6155.75 GB"
       - "[SS] 🏳️‍🌈 日本｜大流量｜0.8x"
   - name: 🎥 AppleTV+
     type: select
@@ -880,6 +893,7 @@ proxy-groups:
       - 🚀 手动选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "[SS] 套餐到期：长期有效"
       - "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x"
       - "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x"
       - "[SS] 🇦🇺 澳大利亚｜原生｜2x"
@@ -899,7 +913,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港｜免广告-电信专用｜2x"
       - "[SS] 🇭🇰 香港｜免广告｜1x"
       - "[SS] 🇭🇰 香港｜流媒体｜1x"
-      - "[SS] 🇭🇰 香港｜游戏专线｜8x"
       - "[SS] 🇭🇰 香港｜电信专用｜2x"
       - "[SS] 🇭🇰 香港｜高速｜1x"
       - "[SS] 🇯🇵 日本｜ emby 专用｜0.8x"
@@ -926,6 +939,7 @@ proxy-groups:
       - "[VLESS] 🇺🇸 美国｜下载节点｜0.3x"
       - "[SS] 🇻🇳 越南｜三网IEPL｜3x"
       - "[SS] 🇻🇳 越南｜原生｜2x"
+      - "[SS] 🏳️‍🌈 剩余流量：6155.75 GB"
       - "[SS] 🏳️‍🌈 日本｜大流量｜0.8x"
   - name: 🎥 Emby
     type: select
@@ -946,6 +960,7 @@ proxy-groups:
       - 🚀 手动选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "[SS] 套餐到期：长期有效"
       - "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x"
       - "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x"
       - "[SS] 🇦🇺 澳大利亚｜原生｜2x"
@@ -965,7 +980,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港｜免广告-电信专用｜2x"
       - "[SS] 🇭🇰 香港｜免广告｜1x"
       - "[SS] 🇭🇰 香港｜流媒体｜1x"
-      - "[SS] 🇭🇰 香港｜游戏专线｜8x"
       - "[SS] 🇭🇰 香港｜电信专用｜2x"
       - "[SS] 🇭🇰 香港｜高速｜1x"
       - "[SS] 🇯🇵 日本｜ emby 专用｜0.8x"
@@ -992,6 +1006,7 @@ proxy-groups:
       - "[VLESS] 🇺🇸 美国｜下载节点｜0.3x"
       - "[SS] 🇻🇳 越南｜三网IEPL｜3x"
       - "[SS] 🇻🇳 越南｜原生｜2x"
+      - "[SS] 🏳️‍🌈 剩余流量：6155.75 GB"
       - "[SS] 🏳️‍🌈 日本｜大流量｜0.8x"
   - name: 🎻 Spotify
     type: select
@@ -1012,6 +1027,7 @@ proxy-groups:
       - 🚀 手动选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "[SS] 套餐到期：长期有效"
       - "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x"
       - "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x"
       - "[SS] 🇦🇺 澳大利亚｜原生｜2x"
@@ -1031,7 +1047,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港｜免广告-电信专用｜2x"
       - "[SS] 🇭🇰 香港｜免广告｜1x"
       - "[SS] 🇭🇰 香港｜流媒体｜1x"
-      - "[SS] 🇭🇰 香港｜游戏专线｜8x"
       - "[SS] 🇭🇰 香港｜电信专用｜2x"
       - "[SS] 🇭🇰 香港｜高速｜1x"
       - "[SS] 🇯🇵 日本｜ emby 专用｜0.8x"
@@ -1058,6 +1073,7 @@ proxy-groups:
       - "[VLESS] 🇺🇸 美国｜下载节点｜0.3x"
       - "[SS] 🇻🇳 越南｜三网IEPL｜3x"
       - "[SS] 🇻🇳 越南｜原生｜2x"
+      - "[SS] 🏳️‍🌈 剩余流量：6155.75 GB"
       - "[SS] 🏳️‍🌈 日本｜大流量｜0.8x"
   - name: 📺 Bahamut
     type: select
@@ -1084,6 +1100,7 @@ proxy-groups:
       - 🚀 手动选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "[SS] 套餐到期：长期有效"
       - "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x"
       - "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x"
       - "[SS] 🇦🇺 澳大利亚｜原生｜2x"
@@ -1103,7 +1120,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港｜免广告-电信专用｜2x"
       - "[SS] 🇭🇰 香港｜免广告｜1x"
       - "[SS] 🇭🇰 香港｜流媒体｜1x"
-      - "[SS] 🇭🇰 香港｜游戏专线｜8x"
       - "[SS] 🇭🇰 香港｜电信专用｜2x"
       - "[SS] 🇭🇰 香港｜高速｜1x"
       - "[SS] 🇯🇵 日本｜ emby 专用｜0.8x"
@@ -1130,6 +1146,7 @@ proxy-groups:
       - "[VLESS] 🇺🇸 美国｜下载节点｜0.3x"
       - "[SS] 🇻🇳 越南｜三网IEPL｜3x"
       - "[SS] 🇻🇳 越南｜原生｜2x"
+      - "[SS] 🏳️‍🌈 剩余流量：6155.75 GB"
       - "[SS] 🏳️‍🌈 日本｜大流量｜0.8x"
   - name: 🛒 国外电商
     type: select
@@ -1150,6 +1167,7 @@ proxy-groups:
       - 🚀 手动选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "[SS] 套餐到期：长期有效"
       - "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x"
       - "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x"
       - "[SS] 🇦🇺 澳大利亚｜原生｜2x"
@@ -1169,7 +1187,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港｜免广告-电信专用｜2x"
       - "[SS] 🇭🇰 香港｜免广告｜1x"
       - "[SS] 🇭🇰 香港｜流媒体｜1x"
-      - "[SS] 🇭🇰 香港｜游戏专线｜8x"
       - "[SS] 🇭🇰 香港｜电信专用｜2x"
       - "[SS] 🇭🇰 香港｜高速｜1x"
       - "[SS] 🇯🇵 日本｜ emby 专用｜0.8x"
@@ -1196,6 +1213,7 @@ proxy-groups:
       - "[VLESS] 🇺🇸 美国｜下载节点｜0.3x"
       - "[SS] 🇻🇳 越南｜三网IEPL｜3x"
       - "[SS] 🇻🇳 越南｜原生｜2x"
+      - "[SS] 🏳️‍🌈 剩余流量：6155.75 GB"
       - "[SS] 🏳️‍🌈 日本｜大流量｜0.8x"
   - name: 📢 谷歌FCM
     type: select
@@ -1311,6 +1329,7 @@ proxy-groups:
       - 🌐 其他地区
       - 🚀 手动选择
       - ♻️ 自动选择
+      - "[SS] 套餐到期：长期有效"
       - "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x"
       - "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x"
       - "[SS] 🇦🇺 澳大利亚｜原生｜2x"
@@ -1330,7 +1349,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港｜免广告-电信专用｜2x"
       - "[SS] 🇭🇰 香港｜免广告｜1x"
       - "[SS] 🇭🇰 香港｜流媒体｜1x"
-      - "[SS] 🇭🇰 香港｜游戏专线｜8x"
       - "[SS] 🇭🇰 香港｜电信专用｜2x"
       - "[SS] 🇭🇰 香港｜高速｜1x"
       - "[SS] 🇯🇵 日本｜ emby 专用｜0.8x"
@@ -1357,6 +1375,7 @@ proxy-groups:
       - "[VLESS] 🇺🇸 美国｜下载节点｜0.3x"
       - "[SS] 🇻🇳 越南｜三网IEPL｜3x"
       - "[SS] 🇻🇳 越南｜原生｜2x"
+      - "[SS] 🏳️‍🌈 剩余流量：6155.75 GB"
       - "[SS] 🏳️‍🌈 日本｜大流量｜0.8x"
   - name: 🚀 测速工具
     type: select
@@ -1377,6 +1396,7 @@ proxy-groups:
       - 🌐 其他地区
       - 🚀 手动选择
       - ♻️ 自动选择
+      - "[SS] 套餐到期：长期有效"
       - "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x"
       - "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x"
       - "[SS] 🇦🇺 澳大利亚｜原生｜2x"
@@ -1396,7 +1416,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港｜免广告-电信专用｜2x"
       - "[SS] 🇭🇰 香港｜免广告｜1x"
       - "[SS] 🇭🇰 香港｜流媒体｜1x"
-      - "[SS] 🇭🇰 香港｜游戏专线｜8x"
       - "[SS] 🇭🇰 香港｜电信专用｜2x"
       - "[SS] 🇭🇰 香港｜高速｜1x"
       - "[SS] 🇯🇵 日本｜ emby 专用｜0.8x"
@@ -1423,6 +1442,7 @@ proxy-groups:
       - "[VLESS] 🇺🇸 美国｜下载节点｜0.3x"
       - "[SS] 🇻🇳 越南｜三网IEPL｜3x"
       - "[SS] 🇻🇳 越南｜原生｜2x"
+      - "[SS] 🏳️‍🌈 剩余流量：6155.75 GB"
       - "[SS] 🏳️‍🌈 日本｜大流量｜0.8x"
   - name: 🐟 漏网之鱼
     type: select
@@ -1443,6 +1463,7 @@ proxy-groups:
       - 🚀 手动选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "[SS] 套餐到期：长期有效"
       - "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x"
       - "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x"
       - "[SS] 🇦🇺 澳大利亚｜原生｜2x"
@@ -1462,7 +1483,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港｜免广告-电信专用｜2x"
       - "[SS] 🇭🇰 香港｜免广告｜1x"
       - "[SS] 🇭🇰 香港｜流媒体｜1x"
-      - "[SS] 🇭🇰 香港｜游戏专线｜8x"
       - "[SS] 🇭🇰 香港｜电信专用｜2x"
       - "[SS] 🇭🇰 香港｜高速｜1x"
       - "[SS] 🇯🇵 日本｜ emby 专用｜0.8x"
@@ -1489,6 +1509,7 @@ proxy-groups:
       - "[VLESS] 🇺🇸 美国｜下载节点｜0.3x"
       - "[SS] 🇻🇳 越南｜三网IEPL｜3x"
       - "[SS] 🇻🇳 越南｜原生｜2x"
+      - "[SS] 🏳️‍🌈 剩余流量：6155.75 GB"
       - "[SS] 🏳️‍🌈 日本｜大流量｜0.8x"
   - name: 🇭🇰 香港节点
     type: url-test
@@ -1509,7 +1530,6 @@ proxy-groups:
       - "[SS] 🇭🇰 香港｜免广告-电信专用｜2x"
       - "[SS] 🇭🇰 香港｜免广告｜1x"
       - "[SS] 🇭🇰 香港｜流媒体｜1x"
-      - "[SS] 🇭🇰 香港｜游戏专线｜8x"
       - "[SS] 🇭🇰 香港｜电信专用｜2x"
       - "[SS] 🇭🇰 香港｜高速｜1x"
   - name: 🇺🇸 美国节点
@@ -1610,6 +1630,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - "[SS] 套餐到期：长期有效"
       - "[SS] 🇦🇷 阿根廷｜CN2GIA｜3x"
       - "[SS] 🇦🇺 澳大利亚｜三网IEPL｜3x"
       - "[SS] 🇦🇺 澳大利亚｜原生｜2x"
@@ -1621,6 +1642,7 @@ proxy-groups:
       - "[SS] 🇹🇭 泰国｜原生｜2x"
       - "[SS] 🇻🇳 越南｜三网IEPL｜3x"
       - "[SS] 🇻🇳 越南｜原生｜2x"
+      - "[SS] 🏳️‍🌈 剩余流量：6155.75 GB"
   - name: 🎯 全球直连
     type: select
     proxies:

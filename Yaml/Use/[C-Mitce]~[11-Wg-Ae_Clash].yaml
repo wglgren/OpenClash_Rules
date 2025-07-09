@@ -5,22 +5,22 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "[Hysteria2] 🇨🇳 TW1-HY2", server: tw1.ddns-link-b5.uk, port: 1667, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: tw1.ddns-link-b5.uk, skip-cert-verify: true, udp: true}
-  - {name: "[Hysteria2] 🇨🇳 TW2-HY2", server: tw2.ddns-link-b5.uk, port: 3174, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: tw2.ddns-link-b5.uk, skip-cert-verify: true, udp: true}
-  - {name: "[Hysteria2] 🇨🇳 TW3-HY2", server: tw3.ddns-link-b5.uk, port: 5220, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: tw3.ddns-link-b5.uk, skip-cert-verify: true, udp: true}
-  - {name: "[Hysteria2] 🇨🇳 TW4-HY2", server: tw4.ddns-link-b5.uk, port: 7742, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: tw4.ddns-link-b5.uk, skip-cert-verify: true, udp: true}
-  - {name: "[Hysteria2] 🇨🇳 TW5-HY2", server: tw5.ddns-link-b5.uk, port: 9058, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: tw5.ddns-link-b5.uk, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇨🇳 TW1-HY2", server: tw1.ddns-link-b5.uk, port: 1079, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: tw1.ddns-link-b5.uk, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇨🇳 TW2-HY2", server: tw2.ddns-link-b5.uk, port: 3964, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: tw2.ddns-link-b5.uk, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇨🇳 TW3-HY2", server: tw3.ddns-link-b5.uk, port: 5605, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: tw3.ddns-link-b5.uk, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇨🇳 TW4-HY2", server: tw4.ddns-link-b5.uk, port: 7610, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: tw4.ddns-link-b5.uk, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇨🇳 TW5-HY2", server: tw5.ddns-link-b5.uk, port: 9499, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: tw5.ddns-link-b5.uk, skip-cert-verify: true, udp: true}
   - {name: "[VLESS] 🇭🇰 HK-1", server: 1a2cfa02.ddns-link-b5.uk, port: 10126, type: vless, tls: true, packet-encoding: xudp, uuid: 71DC339E-AA7C-495C-BD5C-74211D57B71B, servername: s0.awsstatic.com, flow: xtls-rprx-vision, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: random, skip-cert-verify: true, udp: true}
   - {name: "[VLESS] 🇭🇰 HK-2", server: 9b1f5bf4.ddns-link-b5.uk, port: 10127, type: vless, tls: true, packet-encoding: xudp, uuid: 71DC339E-AA7C-495C-BD5C-74211D57B71B, servername: s0.awsstatic.com, flow: xtls-rprx-vision, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: random, skip-cert-verify: true, udp: true}
-  - {name: "[Hysteria2] 🇭🇰 HK3-HY2", server: hk3.ddns-link-b5.uk, port: 5348, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: hk3.ddns-link-b5.uk, skip-cert-verify: true, udp: true}
-  - {name: "[Hysteria2] 🇭🇰 HK4-HY2", server: hk4.ddns-link-b5.uk, port: 7092, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: hk4.ddns-link-b5.uk, skip-cert-verify: true, udp: true}
-  - {name: "[Hysteria2] 🇭🇰 HK5-HY2", server: hk5.ddns-link-b5.uk, port: 9591, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: hk5.ddns-link-b5.uk, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇭🇰 HK3-HY2", server: hk3.ddns-link-b5.uk, port: 5099, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: hk3.ddns-link-b5.uk, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇭🇰 HK4-HY2", server: hk4.ddns-link-b5.uk, port: 7927, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: hk4.ddns-link-b5.uk, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇭🇰 HK5-HY2", server: hk5.ddns-link-b5.uk, port: 10000, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: hk5.ddns-link-b5.uk, skip-cert-verify: true, udp: true}
   - {name: "[VLESS] 🇯🇵 JP-1-Reality", server: 974d6dfe.ddns-link-b5.uk, port: 10031, type: vless, tls: true, packet-encoding: xudp, uuid: 71DC339E-AA7C-495C-BD5C-74211D57B71B, servername: s0.awsstatic.com, flow: xtls-rprx-vision, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: random, skip-cert-verify: true, udp: true}
-  - {name: "[Hysteria2] 🇯🇵 JP1-HY2", server: jp1.dexlos.com, port: 1067, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: jp1.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: "[Hysteria2] 🇯🇵 JP2-HY2", server: jp2.dexlos.com, port: 3475, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: jp2.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: "[Hysteria2] 🇯🇵 JP3-HY2", server: jp3.dexlos.com, port: 5107, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: jp3.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: "[Hysteria2] 🇯🇵 JP4-HY2", server: jp4.dexlos.com, port: 7452, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: jp4.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: "[Hysteria2] 🇯🇵 JP5-HY2", server: jp5.dexlos.com, port: 9372, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: jp5.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇯🇵 JP1-HY2", server: jp1.dexlos.com, port: 1751, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: jp1.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇯🇵 JP2-HY2", server: jp2.dexlos.com, port: 3185, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: jp2.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇯🇵 JP3-HY2", server: jp3.dexlos.com, port: 5664, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: jp3.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇯🇵 JP4-HY2", server: jp4.dexlos.com, port: 7032, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: jp4.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇯🇵 JP5-HY2", server: jp5.dexlos.com, port: 9002, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: jp5.dexlos.com, skip-cert-verify: true, udp: true}
   - {name: "[VLESS] 🇰🇷 KR-1", server: 3451a8d4.ddns-link-b5.uk, port: 10046, type: vless, tls: true, packet-encoding: xudp, uuid: 71DC339E-AA7C-495C-BD5C-74211D57B71B, servername: s0.awsstatic.com, flow: xtls-rprx-vision, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: random, skip-cert-verify: true, udp: true}
   - {name: "[VLESS] 🇰🇷 KR-2", server: 5f3c0a0e.ddns-link-b5.uk, port: 10047, type: vless, tls: true, packet-encoding: xudp, uuid: 71DC339E-AA7C-495C-BD5C-74211D57B71B, servername: s0.awsstatic.com, flow: xtls-rprx-vision, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: random, skip-cert-verify: true, udp: true}
   - {name: "[VLESS] 🇰🇷 KR-3", server: 78925e89.ddns-link-b5.uk, port: 10048, type: vless, tls: true, packet-encoding: xudp, uuid: 71DC339E-AA7C-495C-BD5C-74211D57B71B, servername: s0.awsstatic.com, flow: xtls-rprx-vision, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: random, skip-cert-verify: true, udp: true}
@@ -33,13 +33,15 @@ proxies:
   - {name: "[VLESS] 🇸🇬 SG-5", server: 127a9647.ddns-link-b5.uk, port: 10040, type: vless, tls: true, packet-encoding: xudp, uuid: 71DC339E-AA7C-495C-BD5C-74211D57B71B, servername: s0.awsstatic.com, flow: xtls-rprx-vision, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: random, skip-cert-verify: true, udp: true}
   - {name: "[VLESS] 🇺🇸 US-1", server: 7045f5d1.ddns-link-b5.uk, port: 10121, type: vless, tls: true, packet-encoding: xudp, uuid: 71DC339E-AA7C-495C-BD5C-74211D57B71B, servername: s0.awsstatic.com, flow: xtls-rprx-vision, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: random, skip-cert-verify: true, udp: true}
   - {name: "[VLESS] 🇺🇸 US-2", server: 1d036a2c.ddns-link-b5.uk, port: 10122, type: vless, tls: true, packet-encoding: xudp, uuid: 71DC339E-AA7C-495C-BD5C-74211D57B71B, servername: s0.awsstatic.com, flow: xtls-rprx-vision, reality-opts: {public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE, short-id: 686c0ef0}, client-fingerprint: random, skip-cert-verify: true, udp: true}
-  - {name: "[Hysteria2] 🇺🇸 US3-HY2", server: us3.dexlos.com, port: 5618, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: us3.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: "[Hysteria2] 🇺🇸 US4-HY2", server: us4.dexlos.com, port: 7315, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: us4.dexlos.com, skip-cert-verify: true, udp: true}
-  - {name: "[Hysteria2] 🇺🇸 US5-HY2", server: us5.dexlos.com, port: 9980, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: us5.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇺🇸 US3-HY2", server: us3.dexlos.com, port: 5577, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: us3.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇺🇸 US4-HY2", server: us4.dexlos.com, port: 7104, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: us4.dexlos.com, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇺🇸 US5-HY2", server: us5.dexlos.com, port: 9401, type: hysteria2, password: 71DC339E-AA7C-495C-BD5C-74211D57B71B, sni: us5.dexlos.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点手动
     type: select
     proxies:
+      - ♻️ 节点自动
+      - 🎯 全球直连
       - DX 电信手动
       - 🇭🇰 香港手动
       - 🇺🇸 美国手动
@@ -54,6 +56,92 @@ proxy-groups:
       - 🇳🇱 荷兰手动
       - 🇹🇷 土耳其手动
       - 🌐 其他手动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: ♻️ 节点自动
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 💬 即时通讯
+    type: select
+    proxies:
+      - 🚀 节点手动
       - ♻️ 节点自动
       - DX 电信自动
       - 🇭🇰 香港自动
@@ -69,6 +157,20 @@ proxy-groups:
       - 🇳🇱 荷兰自动
       - 🇹🇷 土耳其自动
       - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
       - 🎯 全球直连
       - "[Hysteria2] 🇨🇳 TW1-HY2"
       - "[Hysteria2] 🇨🇳 TW2-HY2"
@@ -101,93 +203,1600 @@ proxy-groups:
       - "[Hysteria2] 🇺🇸 US3-HY2"
       - "[Hysteria2] 🇺🇸 US4-HY2"
       - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: DX 电信手动
+  - name: 🌐 社交媒体
     type: select
     proxies:
-      - DIRECT
-  - name: 🇭🇰 香港手动
-    type: select
-    proxies:
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - 🎯 全球直连
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
       - "[VLESS] 🇭🇰 HK-1"
       - "[VLESS] 🇭🇰 HK-2"
       - "[Hysteria2] 🇭🇰 HK3-HY2"
       - "[Hysteria2] 🇭🇰 HK4-HY2"
       - "[Hysteria2] 🇭🇰 HK5-HY2"
-  - name: 🇺🇸 美国手动
-    type: select
-    proxies:
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🇯🇵 日本手动
-    type: select
-    proxies:
       - "[VLESS] 🇯🇵 JP-1-Reality"
       - "[Hysteria2] 🇯🇵 JP1-HY2"
       - "[Hysteria2] 🇯🇵 JP2-HY2"
       - "[Hysteria2] 🇯🇵 JP3-HY2"
       - "[Hysteria2] 🇯🇵 JP4-HY2"
       - "[Hysteria2] 🇯🇵 JP5-HY2"
-  - name: 🇸🇬 新加坡手动
-    type: select
-    proxies:
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-  - name: 🇼🇸 台湾手动
-    type: select
-    proxies:
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-  - name: 🇰🇷 韩国手动
-    type: select
-    proxies:
       - "[VLESS] 🇰🇷 KR-1"
       - "[VLESS] 🇰🇷 KR-2"
       - "[VLESS] 🇰🇷 KR-3"
       - "[VLESS] 🇰🇷 KR-4"
       - "[VLESS] 🇰🇷 KR-5"
-  - name: 🇨🇦 加拿大手动
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 🚀 GitHub
     type: select
     proxies:
-      - DIRECT
-  - name: 🇬🇧 英国手动
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - 🎯 全球直连
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 🤖 ChatGPT
     type: select
     proxies:
-      - DIRECT
-  - name: 🇫🇷 法国手动
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - 🎯 全球直连
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 🤖 Copilot
     type: select
     proxies:
-      - DIRECT
-  - name: 🇩🇪 德国手动
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - 🎯 全球直连
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 🤖 AI服务
     type: select
     proxies:
-      - DIRECT
-  - name: 🇳🇱 荷兰手动
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - 🎯 全球直连
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 🎶 TikTok
     type: select
     proxies:
-      - DIRECT
-  - name: 🇹🇷 土耳其手动
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - 🎯 全球直连
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 📹 YouTube
     type: select
     proxies:
-      - DIRECT
-  - name: 🌐 其他手动
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - 🎯 全球直连
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 🎥 Netflix
     type: select
     proxies:
-      - DIRECT
-  - name: ♻️ 节点自动
-    type: url-test
-    url: https://cp.cloudflare.com/generate_204
-    interval: 300
-    tolerance: 50
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - 🎯 全球直连
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 🎥 DisneyPlus
+    type: select
     proxies:
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - 🎯 全球直连
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 🎥 HBO
+    type: select
+    proxies:
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - 🎯 全球直连
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 🎥 PrimeVideo
+    type: select
+    proxies:
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - 🎯 全球直连
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 🎥 AppleTV+
+    type: select
+    proxies:
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - 🎯 全球直连
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 🎻 Spotify
+    type: select
+    proxies:
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - 🎯 全球直连
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 📺 Bahamut
+    type: select
+    proxies:
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - 🎯 全球直连
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 🌎 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - 🎯 全球直连
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 🛒 国外电商
+    type: select
+    proxies:
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - 🎯 全球直连
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - 🎯 全球直连
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 🇬 谷歌服务
+    type: select
+    proxies:
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - 🎯 全球直连
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - 🎯 全球直连
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 🎥 Emby
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 🎮 Steam
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
+      - "[Hysteria2] 🇨🇳 TW1-HY2"
+      - "[Hysteria2] 🇨🇳 TW2-HY2"
+      - "[Hysteria2] 🇨🇳 TW3-HY2"
+      - "[Hysteria2] 🇨🇳 TW4-HY2"
+      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - "[VLESS] 🇭🇰 HK-1"
+      - "[VLESS] 🇭🇰 HK-2"
+      - "[Hysteria2] 🇭🇰 HK3-HY2"
+      - "[Hysteria2] 🇭🇰 HK4-HY2"
+      - "[Hysteria2] 🇭🇰 HK5-HY2"
+      - "[VLESS] 🇯🇵 JP-1-Reality"
+      - "[Hysteria2] 🇯🇵 JP1-HY2"
+      - "[Hysteria2] 🇯🇵 JP2-HY2"
+      - "[Hysteria2] 🇯🇵 JP3-HY2"
+      - "[Hysteria2] 🇯🇵 JP4-HY2"
+      - "[Hysteria2] 🇯🇵 JP5-HY2"
+      - "[VLESS] 🇰🇷 KR-1"
+      - "[VLESS] 🇰🇷 KR-2"
+      - "[VLESS] 🇰🇷 KR-3"
+      - "[VLESS] 🇰🇷 KR-4"
+      - "[VLESS] 🇰🇷 KR-5"
+      - "[VLESS] 🇸🇬 SG-1"
+      - "[VLESS] 🇸🇬 SG-2"
+      - "[VLESS] 🇸🇬 SG-3"
+      - "[VLESS] 🇸🇬 SG-4"
+      - "[VLESS] 🇸🇬 SG-5"
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 🚀 测速工具
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点手动
+      - ♻️ 节点自动
+      - DX 电信自动
+      - 🇭🇰 香港自动
+      - 🇺🇸 美国自动
+      - 🇯🇵 日本自动
+      - 🇸🇬 新加坡自动
+      - 🇼🇸 台湾自动
+      - 🇰🇷 韩国自动
+      - 🇨🇦 加拿大自动
+      - 🇬🇧 英国自动
+      - 🇫🇷 法国自动
+      - 🇩🇪 德国自动
+      - 🇳🇱 荷兰自动
+      - 🇹🇷 土耳其自动
+      - 🌐 其他自动
+      - DX 电信手动
+      - 🇭🇰 香港手动
+      - 🇺🇸 美国手动
+      - 🇯🇵 日本手动
+      - 🇸🇬 新加坡手动
+      - 🇼🇸 台湾手动
+      - 🇰🇷 韩国手动
+      - 🇨🇦 加拿大手动
+      - 🇬🇧 英国手动
+      - 🇫🇷 法国手动
+      - 🇩🇪 德国手动
+      - 🇳🇱 荷兰手动
+      - 🇹🇷 土耳其手动
+      - 🌐 其他手动
       - "[Hysteria2] 🇨🇳 TW1-HY2"
       - "[Hysteria2] 🇨🇳 TW2-HY2"
       - "[Hysteria2] 🇨🇳 TW3-HY2"
@@ -342,1696 +1951,87 @@ proxy-groups:
     tolerance: 50
     proxies:
       - DIRECT
-  - name: 💬 即时通讯
+  - name: DX 电信手动
     type: select
     proxies:
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - 🎯 全球直连
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
+      - DIRECT
+  - name: 🇭🇰 香港手动
+    type: select
+    proxies:
       - "[VLESS] 🇭🇰 HK-1"
       - "[VLESS] 🇭🇰 HK-2"
       - "[Hysteria2] 🇭🇰 HK3-HY2"
       - "[Hysteria2] 🇭🇰 HK4-HY2"
       - "[Hysteria2] 🇭🇰 HK5-HY2"
+  - name: 🇺🇸 美国手动
+    type: select
+    proxies:
+      - "[VLESS] 🇺🇸 US-1"
+      - "[VLESS] 🇺🇸 US-2"
+      - "[Hysteria2] 🇺🇸 US3-HY2"
+      - "[Hysteria2] 🇺🇸 US4-HY2"
+      - "[Hysteria2] 🇺🇸 US5-HY2"
+  - name: 🇯🇵 日本手动
+    type: select
+    proxies:
       - "[VLESS] 🇯🇵 JP-1-Reality"
       - "[Hysteria2] 🇯🇵 JP1-HY2"
       - "[Hysteria2] 🇯🇵 JP2-HY2"
       - "[Hysteria2] 🇯🇵 JP3-HY2"
       - "[Hysteria2] 🇯🇵 JP4-HY2"
       - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
+  - name: 🇸🇬 新加坡手动
+    type: select
+    proxies:
       - "[VLESS] 🇸🇬 SG-1"
       - "[VLESS] 🇸🇬 SG-2"
       - "[VLESS] 🇸🇬 SG-3"
       - "[VLESS] 🇸🇬 SG-4"
       - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🌐 社交媒体
+  - name: 🇼🇸 台湾手动
     type: select
     proxies:
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - 🎯 全球直连
       - "[Hysteria2] 🇨🇳 TW1-HY2"
       - "[Hysteria2] 🇨🇳 TW2-HY2"
       - "[Hysteria2] 🇨🇳 TW3-HY2"
       - "[Hysteria2] 🇨🇳 TW4-HY2"
       - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🚀 GitHub
+  - name: 🇰🇷 韩国手动
     type: select
     proxies:
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - 🎯 全球直连
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
       - "[VLESS] 🇰🇷 KR-1"
       - "[VLESS] 🇰🇷 KR-2"
       - "[VLESS] 🇰🇷 KR-3"
       - "[VLESS] 🇰🇷 KR-4"
       - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🤖 ChatGPT
+  - name: 🇨🇦 加拿大手动
     type: select
     proxies:
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - 🎯 全球直连
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🤖 Copilot
+      - DIRECT
+  - name: 🇬🇧 英国手动
     type: select
     proxies:
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - 🎯 全球直连
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🤖 AI服务
+      - DIRECT
+  - name: 🇫🇷 法国手动
     type: select
     proxies:
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - 🎯 全球直连
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🎶 TikTok
+      - DIRECT
+  - name: 🇩🇪 德国手动
     type: select
     proxies:
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - 🎯 全球直连
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 📹 YouTube
+      - DIRECT
+  - name: 🇳🇱 荷兰手动
     type: select
     proxies:
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - 🎯 全球直连
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🎥 Netflix
+      - DIRECT
+  - name: 🇹🇷 土耳其手动
     type: select
     proxies:
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - 🎯 全球直连
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🎥 DisneyPlus
+      - DIRECT
+  - name: 🌐 其他手动
     type: select
     proxies:
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - 🎯 全球直连
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🎥 HBO
-    type: select
-    proxies:
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - 🎯 全球直连
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🎥 PrimeVideo
-    type: select
-    proxies:
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - 🎯 全球直连
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🎥 AppleTV+
-    type: select
-    proxies:
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - 🎯 全球直连
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🎻 Spotify
-    type: select
-    proxies:
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - 🎯 全球直连
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 📺 Bahamut
-    type: select
-    proxies:
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - 🎯 全球直连
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🌎 国外媒体
-    type: select
-    proxies:
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - 🎯 全球直连
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🛒 国外电商
-    type: select
-    proxies:
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - 🎯 全球直连
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 📢 谷歌FCM
-    type: select
-    proxies:
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - 🎯 全球直连
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🇬 谷歌服务
-    type: select
-    proxies:
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - 🎯 全球直连
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🐟 漏网之鱼
-    type: select
-    proxies:
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - 🎯 全球直连
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🎥 Emby
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🍎 苹果服务
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: Ⓜ️ 微软服务
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🎮 游戏平台
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🎮 Steam
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
-  - name: 🚀 测速工具
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🚀 节点手动
-      - DX 电信手动
-      - 🇭🇰 香港手动
-      - 🇺🇸 美国手动
-      - 🇯🇵 日本手动
-      - 🇸🇬 新加坡手动
-      - 🇼🇸 台湾手动
-      - 🇰🇷 韩国手动
-      - 🇨🇦 加拿大手动
-      - 🇬🇧 英国手动
-      - 🇫🇷 法国手动
-      - 🇩🇪 德国手动
-      - 🇳🇱 荷兰手动
-      - 🇹🇷 土耳其手动
-      - 🌐 其他手动
-      - ♻️ 节点自动
-      - DX 电信自动
-      - 🇭🇰 香港自动
-      - 🇺🇸 美国自动
-      - 🇯🇵 日本自动
-      - 🇸🇬 新加坡自动
-      - 🇼🇸 台湾自动
-      - 🇰🇷 韩国自动
-      - 🇨🇦 加拿大自动
-      - 🇬🇧 英国自动
-      - 🇫🇷 法国自动
-      - 🇩🇪 德国自动
-      - 🇳🇱 荷兰自动
-      - 🇹🇷 土耳其自动
-      - 🌐 其他自动
-      - "[Hysteria2] 🇨🇳 TW1-HY2"
-      - "[Hysteria2] 🇨🇳 TW2-HY2"
-      - "[Hysteria2] 🇨🇳 TW3-HY2"
-      - "[Hysteria2] 🇨🇳 TW4-HY2"
-      - "[Hysteria2] 🇨🇳 TW5-HY2"
-      - "[VLESS] 🇭🇰 HK-1"
-      - "[VLESS] 🇭🇰 HK-2"
-      - "[Hysteria2] 🇭🇰 HK3-HY2"
-      - "[Hysteria2] 🇭🇰 HK4-HY2"
-      - "[Hysteria2] 🇭🇰 HK5-HY2"
-      - "[VLESS] 🇯🇵 JP-1-Reality"
-      - "[Hysteria2] 🇯🇵 JP1-HY2"
-      - "[Hysteria2] 🇯🇵 JP2-HY2"
-      - "[Hysteria2] 🇯🇵 JP3-HY2"
-      - "[Hysteria2] 🇯🇵 JP4-HY2"
-      - "[Hysteria2] 🇯🇵 JP5-HY2"
-      - "[VLESS] 🇰🇷 KR-1"
-      - "[VLESS] 🇰🇷 KR-2"
-      - "[VLESS] 🇰🇷 KR-3"
-      - "[VLESS] 🇰🇷 KR-4"
-      - "[VLESS] 🇰🇷 KR-5"
-      - "[VLESS] 🇸🇬 SG-1"
-      - "[VLESS] 🇸🇬 SG-2"
-      - "[VLESS] 🇸🇬 SG-3"
-      - "[VLESS] 🇸🇬 SG-4"
-      - "[VLESS] 🇸🇬 SG-5"
-      - "[VLESS] 🇺🇸 US-1"
-      - "[VLESS] 🇺🇸 US-2"
-      - "[Hysteria2] 🇺🇸 US3-HY2"
-      - "[Hysteria2] 🇺🇸 US4-HY2"
-      - "[Hysteria2] 🇺🇸 US5-HY2"
+      - DIRECT
   - name: 🎯 全球直连
     type: select
     proxies:
