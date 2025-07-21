@@ -1,0 +1,3443 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - {name: "[Hysteria2] 自动最优(hy2)-网址vp0.org", server: best.networklinkpro.net, port: 25870, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)", server: 20au.networklinkpro.net, port: 24455, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)", server: 22br.networklinkpro.net, port: 24677, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)", server: 33ca.networklinkpro.net, port: 23879, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)", server: 34ch.networklinkpro.net, port: 25651, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)", server: 29chi.networklinkpro.net, port: 23268, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)", server: 4tw.networklinkpro.net, port: 25722, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)", server: 11de.networklinkpro.net, port: 23477, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)", server: 36es.networklinkpro.net, port: 25919, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)", server: 27fr.networklinkpro.net, port: 25701, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)", server: 12uk.networklinkpro.net, port: 25873, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 1香港集群-专线(trojan)", server: dnsmart.vp-cdn.mob.networklinkpro.com, port: 15401, type: trojan, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, udp: true}
+  - {name: "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)", server: 1hk.networklinkpro.net, port: 21493, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)", server: 2hk.networklinkpro.net, port: 22788, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇭🇰 3香港-专线(trojan)", server: dnsmart.vp-cdn.mob.networklinkpro.com, port: 15403, type: trojan, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, udp: true}
+  - {name: "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)", server: 13in.networklinkpro.net, port: 24150, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)", server: 30it.networklinkpro.net, port: 23939, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)", server: 18jp.networklinkpro.net, port: 22197, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 19日本-专线(trojan)", server: dnsmart.vp-cdn.mob.networklinkpro.com, port: 15419, type: trojan, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, udp: true}
+  - {name: "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)", server: 19jp.networklinkpro.net, port: 23486, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)", server: dnsmart.vp-cdn.mob.networklinkpro.com, port: 15409, type: trojan, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, udp: true}
+  - {name: "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)", server: 9jp.networklinkpro.net, port: 25421, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)", server: dnsmart.vp-cdn.mob.networklinkpro.com, port: 15407, type: trojan, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, udp: true}
+  - {name: "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)", server: 7kr.networklinkpro.net, port: 25228, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)", server: 8kr.networklinkpro.net, port: 21961, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)", server: 26nl.networklinkpro.net, port: 22854, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)", server: 17ru.networklinkpro.net, port: 23057, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)", server: 31se.networklinkpro.net, port: 22977, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)", server: 11de.networklinkpro.net, port: 5094, type: hysteria, ports: 5000-10000, protocol: udp, up: 50 Mbps, up-speed: 50, down: 100 Mbps, down-speed: 100, auth-str: 6cd34b2a-7770-4b55-922c-92f9c4074d70, auth: NmNkMzRiMmEtNzc3MC00YjU1LTkyMmMtOTJmOWM0MDc0ZDcw, skip-cert-verify: true, alpn: [h3], disable-mtu-discovery: false, fast-open: true, udp: true, tfo: true}
+  - {name: "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)", server: 12uk.networklinkpro.net, port: 5272, type: hysteria, ports: 5000-10000, protocol: udp, up: 50 Mbps, up-speed: 50, down: 100 Mbps, down-speed: 100, auth-str: 6cd34b2a-7770-4b55-922c-92f9c4074d70, auth: NmNkMzRiMmEtNzc3MC00YjU1LTkyMmMtOTJmOWM0MDc0ZDcw, skip-cert-verify: true, alpn: [h3], disable-mtu-discovery: true, fast-open: true, udp: true, tfo: true}
+  - {name: "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)", server: 13in.networklinkpro.net, port: 9642, type: hysteria, ports: 5000-10000, protocol: udp, up: 50 Mbps, up-speed: 50, down: 100 Mbps, down-speed: 100, auth-str: 6cd34b2a-7770-4b55-922c-92f9c4074d70, auth: NmNkMzRiMmEtNzc3MC00YjU1LTkyMmMtOTJmOWM0MDc0ZDcw, skip-cert-verify: true, alpn: [h3], disable-mtu-discovery: true, fast-open: true, udp: true, tfo: true}
+  - {name: "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)", server: 14sg.networklinkpro.net, port: 21901, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)", server: 15sg.networklinkpro.net, port: 25883, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)", server: 16us.networklinkpro.net, port: 9389, type: hysteria, ports: 5000-10000, protocol: udp, up: 50 Mbps, up-speed: 50, down: 100 Mbps, down-speed: 100, auth-str: 6cd34b2a-7770-4b55-922c-92f9c4074d70, auth: NmNkMzRiMmEtNzc3MC00YjU1LTkyMmMtOTJmOWM0MDc0ZDcw, skip-cert-verify: true, alpn: [h3], disable-mtu-discovery: true, fast-open: true, udp: true, tfo: true}
+  - {name: "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)", server: 17ru.networklinkpro.net, port: 5837, type: hysteria, ports: 5000-10000, protocol: udp, up: 50 Mbps, up-speed: 50, down: 100 Mbps, down-speed: 100, auth-str: 6cd34b2a-7770-4b55-922c-92f9c4074d70, auth: NmNkMzRiMmEtNzc3MC00YjU1LTkyMmMtOTJmOWM0MDc0ZDcw, skip-cert-verify: true, alpn: [h3], disable-mtu-discovery: false, fast-open: true, udp: true, tfo: true}
+  - {name: "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)", server: 19jp.networklinkpro.net, port: 8823, type: hysteria, ports: 5000-10000, protocol: udp, up: 50 Mbps, up-speed: 50, down: 100 Mbps, down-speed: 100, auth-str: 6cd34b2a-7770-4b55-922c-92f9c4074d70, auth: NmNkMzRiMmEtNzc3MC00YjU1LTkyMmMtOTJmOWM0MDc0ZDcw, skip-cert-verify: true, alpn: [h3], disable-mtu-discovery: true, fast-open: true, udp: true, tfo: true}
+  - {name: "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)", server: 22br.networklinkpro.net, port: 6238, type: hysteria, ports: 5000-10000, protocol: udp, up: 50 Mbps, up-speed: 50, down: 100 Mbps, down-speed: 100, auth-str: 6cd34b2a-7770-4b55-922c-92f9c4074d70, auth: NmNkMzRiMmEtNzc3MC00YjU1LTkyMmMtOTJmOWM0MDc0ZDcw, skip-cert-verify: true, alpn: [h3], disable-mtu-discovery: true, fast-open: true, udp: true, tfo: true}
+  - {name: "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)", server: 26nl.networklinkpro.net, port: 8151, type: hysteria, ports: 5000-10000, protocol: udp, up: 50 Mbps, up-speed: 50, down: 100 Mbps, down-speed: 100, auth-str: 6cd34b2a-7770-4b55-922c-92f9c4074d70, auth: NmNkMzRiMmEtNzc3MC00YjU1LTkyMmMtOTJmOWM0MDc0ZDcw, skip-cert-verify: true, alpn: [h3], disable-mtu-discovery: true, fast-open: true, udp: true, tfo: true}
+  - {name: "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)", server: 27fr.networklinkpro.net, port: 6074, type: hysteria, ports: 5000-10000, protocol: udp, up: 50 Mbps, up-speed: 50, down: 100 Mbps, down-speed: 100, auth-str: 6cd34b2a-7770-4b55-922c-92f9c4074d70, auth: NmNkMzRiMmEtNzc3MC00YjU1LTkyMmMtOTJmOWM0MDc0ZDcw, skip-cert-verify: true, alpn: [h3], disable-mtu-discovery: false, fast-open: true, udp: true, tfo: true}
+  - {name: "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)", server: 29chi.networklinkpro.net, port: 6053, type: hysteria, ports: 5000-10000, protocol: udp, up: 50 Mbps, up-speed: 50, down: 100 Mbps, down-speed: 100, auth-str: 6cd34b2a-7770-4b55-922c-92f9c4074d70, auth: NmNkMzRiMmEtNzc3MC00YjU1LTkyMmMtOTJmOWM0MDc0ZDcw, skip-cert-verify: true, alpn: [h3], disable-mtu-discovery: true, fast-open: true, udp: true, tfo: true}
+  - {name: "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)", server: 30it.networklinkpro.net, port: 5719, type: hysteria, ports: 5000-10000, protocol: udp, up: 50 Mbps, up-speed: 50, down: 100 Mbps, down-speed: 100, auth-str: 6cd34b2a-7770-4b55-922c-92f9c4074d70, auth: NmNkMzRiMmEtNzc3MC00YjU1LTkyMmMtOTJmOWM0MDc0ZDcw, skip-cert-verify: true, alpn: [h3], disable-mtu-discovery: false, fast-open: true, udp: true, tfo: true}
+  - {name: "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)", server: 31se.networklinkpro.net, port: 5984, type: hysteria, ports: 5000-10000, protocol: udp, up: 50 Mbps, up-speed: 50, down: 100 Mbps, down-speed: 100, auth-str: 6cd34b2a-7770-4b55-922c-92f9c4074d70, auth: NmNkMzRiMmEtNzc3MC00YjU1LTkyMmMtOTJmOWM0MDc0ZDcw, skip-cert-verify: true, alpn: [h3], disable-mtu-discovery: true, fast-open: true, udp: true, tfo: true}
+  - {name: "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)", server: 32za.networklinkpro.net, port: 6401, type: hysteria, ports: 5000-10000, protocol: udp, up: 50 Mbps, up-speed: 50, down: 100 Mbps, down-speed: 100, auth-str: 6cd34b2a-7770-4b55-922c-92f9c4074d70, auth: NmNkMzRiMmEtNzc3MC00YjU1LTkyMmMtOTJmOWM0MDc0ZDcw, skip-cert-verify: true, alpn: [h3], disable-mtu-discovery: false, fast-open: true, udp: true, tfo: true}
+  - {name: "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)", server: 33ca.networklinkpro.net, port: 8611, type: hysteria, ports: 5000-10000, protocol: udp, up: 50 Mbps, up-speed: 50, down: 100 Mbps, down-speed: 100, auth-str: 6cd34b2a-7770-4b55-922c-92f9c4074d70, auth: NmNkMzRiMmEtNzc3MC00YjU1LTkyMmMtOTJmOWM0MDc0ZDcw, skip-cert-verify: true, alpn: [h3], disable-mtu-discovery: false, fast-open: true, udp: true, tfo: true}
+  - {name: "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)", server: 36es.networklinkpro.net, port: 5378, type: hysteria, ports: 5000-10000, protocol: udp, up: 50 Mbps, up-speed: 50, down: 100 Mbps, down-speed: 100, auth-str: 6cd34b2a-7770-4b55-922c-92f9c4074d70, auth: NmNkMzRiMmEtNzc3MC00YjU1LTkyMmMtOTJmOWM0MDc0ZDcw, skip-cert-verify: true, alpn: [h3], disable-mtu-discovery: false, fast-open: true, udp: true, tfo: true}
+  - {name: "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)", server: 38us.networklinkpro.net, port: 7656, type: hysteria, ports: 5000-10000, protocol: udp, up: 50 Mbps, up-speed: 50, down: 100 Mbps, down-speed: 100, auth-str: 6cd34b2a-7770-4b55-922c-92f9c4074d70, auth: NmNkMzRiMmEtNzc3MC00YjU1LTkyMmMtOTJmOWM0MDc0ZDcw, skip-cert-verify: true, alpn: [h3], disable-mtu-discovery: false, fast-open: true, udp: true, tfo: true}
+  - {name: "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)", server: 6us.networklinkpro.net, port: 9845, type: hysteria, ports: 5000-10000, protocol: udp, up: 50 Mbps, up-speed: 50, down: 100 Mbps, down-speed: 100, auth-str: 6cd34b2a-7770-4b55-922c-92f9c4074d70, auth: NmNkMzRiMmEtNzc3MC00YjU1LTkyMmMtOTJmOWM0MDc0ZDcw, skip-cert-verify: true, alpn: [h3], disable-mtu-discovery: true, fast-open: true, udp: true, tfo: true}
+  - {name: "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org", server: best.networklinkpro.net, port: 8016, type: hysteria, ports: 5000-10000, protocol: udp, up: 50 Mbps, up-speed: 50, down: 100 Mbps, down-speed: 100, auth-str: 6cd34b2a-7770-4b55-922c-92f9c4074d70, auth: NmNkMzRiMmEtNzc3MC00YjU1LTkyMmMtOTJmOWM0MDc0ZDcw, skip-cert-verify: true, alpn: [h3], disable-mtu-discovery: false, fast-open: true, udp: true, tfo: true}
+  - {name: "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)", server: 16us.networklinkpro.net, port: 25588, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)", server: 38us.networklinkpro.net, port: 21506, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)", server: 5us.networklinkpro.net, port: 25349, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Trojan] 🇺🇸 5美国集群-专线(trojan)", server: dnsmart.vp-cdn.mob.networklinkpro.com, port: 15405, type: trojan, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, udp: true}
+  - {name: "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)", server: dnsmart.vp-cdn.mob.networklinkpro.com, port: 15406, type: trojan, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, network: ws, ws-opts: {path: ""}, udp: true}
+  - {name: "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)", server: 6us.networklinkpro.net, port: 22905, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)", server: 32za.networklinkpro.net, port: 23332, type: hysteria2, password: 6cd34b2a-7770-4b55-922c-92f9c4074d70, skip-cert-verify: true, udp: true}
+proxy-groups:
+  - name: 🚀 节点-手动
+    type: select
+    proxies:
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - 🎯 全球直连
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: ♻️ 节点-智能
+    type: url-test
+    url: ""
+    proxies:
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: ♻️ 节点-最低延迟
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 💬 即时通讯
+    type: select
+    proxies:
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - 🎯 全球直连
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🌐 社交媒体
+    type: select
+    proxies:
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - 🎯 全球直连
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🚀 GitHub
+    type: select
+    proxies:
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - 🎯 全球直连
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🤖 ChatGPT
+    type: select
+    proxies:
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - 🎯 全球直连
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🤖 Copilot
+    type: select
+    proxies:
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - 🎯 全球直连
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🤖 AI服务
+    type: select
+    proxies:
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - 🎯 全球直连
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🎶 TikTok
+    type: select
+    proxies:
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - 🎯 全球直连
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 📹 YouTube
+    type: select
+    proxies:
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - 🎯 全球直连
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🎥 Netflix
+    type: select
+    proxies:
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - 🎯 全球直连
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🎥 DisneyPlus
+    type: select
+    proxies:
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - 🎯 全球直连
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🎥 HBO
+    type: select
+    proxies:
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - 🎯 全球直连
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🎥 PrimeVideo
+    type: select
+    proxies:
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - 🎯 全球直连
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🎥 AppleTV+
+    type: select
+    proxies:
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - 🎯 全球直连
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🎻 Spotify
+    type: select
+    proxies:
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - 🎯 全球直连
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 📺 Bahamut
+    type: select
+    proxies:
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - 🎯 全球直连
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🌎 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - 🎯 全球直连
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🛒 国外电商
+    type: select
+    proxies:
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - 🎯 全球直连
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - 🎯 全球直连
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🇬 谷歌服务
+    type: select
+    proxies:
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - 🎯 全球直连
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🎥 Emby
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🎮 Steam
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🚀 测速工具
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
+      - ♻️ 节点-最低延迟
+      - DX 电信-最低延迟
+      - 🇭🇰 香港-最低延迟
+      - 🇺🇸 美国-最低延迟
+      - 🇯🇵 日本-最低延迟
+      - 🇸🇬 新加坡-最低延迟
+      - 🇼🇸 台湾-最低延迟
+      - 🇰🇷 韩国-最低延迟
+      - 🇨🇦 加拿大-最低延迟
+      - 🇬🇧 英国-最低延迟
+      - 🇫🇷 法国-最低延迟
+      - 🇩🇪 德国-最低延迟
+      - 🇳🇱 荷兰-最低延迟
+      - 🇹🇷 土耳其-最低延迟
+      - 🌐 其他-最低延迟
+      - DX 电信-手动
+      - 🇭🇰 香港-手动
+      - 🇺🇸 美国-手动
+      - 🇯🇵 日本-手动
+      - 🇸🇬 新加坡-手动
+      - 🇼🇸 台湾-手动
+      - 🇰🇷 韩国-手动
+      - 🇨🇦 加拿大-手动
+      - 🇬🇧 英国-手动
+      - 🇫🇷 法国-手动
+      - 🇩🇪 德国-手动
+      - 🇳🇱 荷兰-手动
+      - 🇹🇷 土耳其-手动
+      - 🌐 其他-手动
+      - 🎯 全球直连
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: DX 电信-智能
+    type: url-test
+    url: ""
+    proxies:
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+  - name: 🇭🇰 香港-智能
+    type: url-test
+    url: ""
+    proxies:
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+  - name: 🇺🇸 美国-智能
+    type: url-test
+    url: ""
+    proxies:
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+  - name: 🇯🇵 日本-智能
+    type: url-test
+    url: ""
+    proxies:
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+  - name: 🇸🇬 新加坡-智能
+    type: url-test
+    url: ""
+    proxies:
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+  - name: 🇼🇸 台湾-智能
+    type: url-test
+    url: ""
+    proxies:
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+  - name: 🇰🇷 韩国-智能
+    type: url-test
+    url: ""
+    proxies:
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+  - name: 🇨🇦 加拿大-智能
+    type: url-test
+    url: ""
+    proxies:
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+  - name: 🇬🇧 英国-智能
+    type: url-test
+    url: ""
+    proxies:
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+  - name: 🇫🇷 法国-智能
+    type: url-test
+    url: ""
+    proxies:
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+  - name: 🇩🇪 德国-智能
+    type: url-test
+    url: ""
+    proxies:
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+  - name: 🇳🇱 荷兰-智能
+    type: url-test
+    url: ""
+    proxies:
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+  - name: 🇹🇷 土耳其-智能
+    type: url-test
+    url: ""
+    proxies:
+      - DIRECT
+  - name: 🌐 其他-智能
+    type: url-test
+    url: ""
+    proxies:
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: DX 电信-最低延迟
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+  - name: 🇭🇰 香港-最低延迟
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+  - name: 🇺🇸 美国-最低延迟
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+  - name: 🇯🇵 日本-最低延迟
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+  - name: 🇸🇬 新加坡-最低延迟
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+  - name: 🇼🇸 台湾-最低延迟
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+  - name: 🇰🇷 韩国-最低延迟
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+  - name: 🇨🇦 加拿大-最低延迟
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+  - name: 🇬🇧 英国-最低延迟
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+  - name: 🇫🇷 法国-最低延迟
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+  - name: 🇩🇪 德国-最低延迟
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+  - name: 🇳🇱 荷兰-最低延迟
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+  - name: 🇹🇷 土耳其-最低延迟
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🌐 其他-最低延迟
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: DX 电信-手动
+    type: select
+    proxies:
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+  - name: 🇭🇰 香港-手动
+    type: select
+    proxies:
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Hysteria2] 🇭🇰 1香港集群-电信/联通(hy2)(限速30M)"
+      - "[Hysteria2] 🇭🇰 2香港-全网优化(hy2)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+  - name: 🇺🇸 美国-手动
+    type: select
+    proxies:
+      - "[Hysteria] 🇸🇬 16美国凤凰城集群-联通优化(新协议)"
+      - "[Hysteria] 🇸🇬 38美国洛杉矶-全网优化(新协议)"
+      - "[Hysteria] 🇸🇬 6美国圣何塞集群-全网优化(新协议)"
+      - "[Hysteria2] 🇺🇸 16美国凤凰城集群-联通优化(hy2)"
+      - "[Hysteria2] 🇺🇸 38美国洛杉矶-全网优化(hy2)"
+      - "[Hysteria2] 🇺🇸 5美国波特兰-全网优化(hy2)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+      - "[Hysteria2] 🇺🇸 6美国圣何塞集群-全网优化(hy2)"
+  - name: 🇯🇵 日本-手动
+    type: select
+    proxies:
+      - "[Hysteria2] 🇯🇵 18日本东京集群-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 19日本东京-联通/移动(hy2)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Hysteria2] 🇯🇵 9日本大版集群-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 19日本东京-联通/移动(新协议)"
+  - name: 🇸🇬 新加坡-手动
+    type: select
+    proxies:
+      - "[Hysteria2] 🇸🇬 14新加坡集群-全网优化(hy2)"
+      - "[Hysteria2] 🇸🇬 15新加坡集群-联通/移动(hy2)"
+  - name: 🇼🇸 台湾-手动
+    type: select
+    proxies:
+      - "[Hysteria2] 🇨🇳 4台湾-电信/联通(hy2)"
+  - name: 🇰🇷 韩国-手动
+    type: select
+    proxies:
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Hysteria2] 🇰🇷 7韩国春川集群-联通/移动(hy2)"
+      - "[Hysteria2] 🇰🇷 8韩国首尔-全网优化(hy2)"
+  - name: 🇨🇦 加拿大-手动
+    type: select
+    proxies:
+      - "[Hysteria2] 🇨🇦 33加拿大-全网优化(hy2)"
+      - "[Hysteria] 🇸🇬 33加拿大-ChatGPT(新协议)"
+  - name: 🇬🇧 英国-手动
+    type: select
+    proxies:
+      - "[Hysteria2] 🇬🇧 12英国-全网优化(hy2)"
+      - "[Hysteria] 🇸🇬 12英国-ChatGPT(新协议)"
+  - name: 🇫🇷 法国-手动
+    type: select
+    proxies:
+      - "[Hysteria2] 🇫🇷 27法国-全网优化(hy2)"
+      - "[Hysteria] 🇸🇬 27法国-ChatGPT(新协议)"
+  - name: 🇩🇪 德国-手动
+    type: select
+    proxies:
+      - "[Hysteria2] 🇩🇪 11德国-全网优化(hy2)"
+      - "[Hysteria] 🇸🇬 11德国-ChatGPT(新协议)"
+  - name: 🇳🇱 荷兰-手动
+    type: select
+    proxies:
+      - "[Hysteria2] 🇳🇱 26荷兰-全网优化(hy2)"
+      - "[Hysteria] 🇸🇬 26荷兰-全网优化(新协议)"
+  - name: 🇹🇷 土耳其-手动
+    type: select
+    proxies:
+      - DIRECT
+  - name: 🌐 其他-手动
+    type: select
+    proxies:
+      - "[Hysteria2] 自动最优(hy2)-网址vp0.org"
+      - "[Hysteria2] 🇦🇺 20澳洲-电信/移动(hy2)"
+      - "[Hysteria2] 🇧🇷 22巴西-联通/移动(hy2)"
+      - "[Hysteria2] 🇨🇭 34瑞士-全网优化(hy2)"
+      - "[Hysteria2] 🇨🇱 29智利-全网优化(hy2)"
+      - "[Hysteria2] 🇪🇸 36西班牙-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇳 13印度孟买-电信/联通(hy2)"
+      - "[Hysteria2] 🇮🇹 30意大利-全网优化(hy2)"
+      - "[Hysteria2] 🇷🇺 17俄罗斯-电信/联通(hy2)"
+      - "[Hysteria2] 🇸🇪 31瑞典-电信/移动(hy2)"
+      - "[Hysteria] 🇸🇬 13印度孟买-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 17俄罗斯-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 22巴西-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 29智利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 30意大利-ChatGPT(新协议)"
+      - "[Hysteria] 🇸🇬 31瑞典-电信/移动(新协议)"
+      - "[Hysteria] 🇸🇬 32南非-约翰内斯堡(新协议)"
+      - "[Hysteria] 🇸🇬 36西班牙-电信/联通(新协议)"
+      - "[Hysteria] 🇸🇬 自动最优(新协议)-网址vp0.org"
+      - "[Hysteria2] 🇿🇦 32南非-约翰内斯堡(hy2)"
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+rules:
+  - GEOSITE,private,🎯 全球直连
+  - GEOIP,private,🎯 全球直连,no-resolve
+  - RULE-SET,Custom_Direct_Classical,🎯 全球直连
+  - RULE-SET,Custom_Proxy_Classical,🚀 节点-手动
+  - GEOSITE,google-cn,🎯 全球直连
+  - GEOSITE,category-games@cn,🎯 全球直连
+  - RULE-SET,Steam_CDN_Classical,🎯 全球直连
+  - GEOSITE,category-game-platforms-download,🎯 全球直连
+  - GEOSITE,category-public-tracker,🎯 全球直连
+  - GEOSITE,category-communication,💬 即时通讯
+  - GEOSITE,category-social-media-!cn,🌐 社交媒体
+  - GEOSITE,openai,🤖 ChatGPT
+  - GEOSITE,bing,🤖 Copilot
+  - GEOSITE,category-ai-!cn,🤖 AI服务
+  - GEOSITE,github,🚀 GitHub
+  - GEOSITE,category-speedtest,🚀 测速工具
+  - GEOSITE,steam,🎮 Steam
+  - GEOSITE,youtube,📹 YouTube
+  - GEOSITE,apple-tvplus,🎥 AppleTV+
+  - GEOSITE,apple,🍎 苹果服务
+  - GEOSITE,microsoft,Ⓜ️ 微软服务
+  - GEOSITE,googlefcm,📢 谷歌FCM
+  - GEOSITE,google,🇬 谷歌服务
+  - GEOSITE,tiktok,🎶 TikTok
+  - GEOSITE,netflix,🎥 Netflix
+  - GEOSITE,disney,🎥 DisneyPlus
+  - GEOSITE,hbo,🎥 HBO
+  - GEOSITE,primevideo,🎥 PrimeVideo
+  - GEOSITE,category-emby,🎥 Emby
+  - GEOSITE,spotify,🎻 Spotify
+  - GEOSITE,bahamut,📺 Bahamut
+  - GEOSITE,category-games,🎮 游戏平台
+  - GEOSITE,category-entertainment,🌎 国外媒体
+  - GEOSITE,category-ecommerce,🛒 国外电商
+  - GEOSITE,gfw,🚀 节点-手动
+  - GEOIP,telegram,💬 即时通讯,no-resolve
+  - GEOIP,twitter,🌐 社交媒体,no-resolve
+  - GEOIP,facebook,🌐 社交媒体,no-resolve
+  - GEOIP,google,🇬 谷歌服务,no-resolve
+  - GEOIP,netflix,🎥 Netflix,no-resolve
+  - GEOSITE,cn,🎯 全球直连
+  - GEOIP,cn,🎯 全球直连,no-resolve
+  - MATCH,🐟 漏网之鱼
+rule-providers:
+  Custom_Direct_Classical:
+    type: http
+    behavior: classical
+    url: https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Direct_Classical.yaml
+    path: ./providers/15519759398106057482.yaml
+    interval: 28800
+  Custom_Proxy_Classical:
+    type: http
+    behavior: classical
+    url: https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Proxy_Classical.yaml
+    path: ./providers/5958306251279867197.yaml
+    interval: 28800
+  Steam_CDN_Classical:
+    type: http
+    behavior: classical
+    url: https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Steam_CDN_Classical.yaml
+    path: ./providers/13268481674871578153.yaml
+    interval: 28800
