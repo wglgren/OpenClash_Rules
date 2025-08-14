@@ -19,6 +19,21 @@ proxy-groups:
   - name: 🚀 节点-手动
     type: select
     proxies:
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -59,6 +74,24 @@ proxy-groups:
       - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
       - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
       - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+  - name: ♻️ 节点-智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
+      - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
+      - "[SS] ❗请到我们教程中下载Clash Verge❗"
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
   - name: ♻️ 节点-最低延迟
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -79,6 +112,21 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -123,6 +171,21 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -167,6 +230,21 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -211,6 +289,21 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -255,6 +348,21 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -299,6 +407,21 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -343,6 +466,21 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -387,6 +525,21 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -431,6 +584,21 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -475,6 +643,21 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -519,6 +702,21 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -563,6 +761,21 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -607,6 +820,21 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -651,6 +879,21 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -695,6 +938,21 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -739,6 +997,21 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -783,6 +1056,21 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -827,6 +1115,21 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -871,6 +1174,21 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -916,6 +1234,21 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -960,6 +1293,21 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1004,6 +1352,21 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1048,6 +1411,21 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1092,6 +1470,21 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1136,6 +1529,21 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1179,6 +1587,21 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
+      - ♻️ 节点-智能
+      - DX 电信-智能
+      - 🇭🇰 香港-智能
+      - 🇺🇸 美国-智能
+      - 🇯🇵 日本-智能
+      - 🇸🇬 新加坡-智能
+      - 🇼🇸 台湾-智能
+      - 🇰🇷 韩国-智能
+      - 🇨🇦 加拿大-智能
+      - 🇬🇧 英国-智能
+      - 🇫🇷 法国-智能
+      - 🇩🇪 德国-智能
+      - 🇳🇱 荷兰-智能
+      - 🇹🇷 土耳其-智能
+      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1219,6 +1642,137 @@ proxy-groups:
       - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
       - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
       - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+  - name: DX 电信-智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - DIRECT
+  - name: 🇭🇰 香港-智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
+      - "[Trojan] 🇭🇰 3香港-专线(trojan)"
+  - name: 🇺🇸 美国-智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
+      - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
+  - name: 🇯🇵 日本-智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - "[Trojan] 🇯🇵 19日本-专线(trojan)"
+      - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
+  - name: 🇸🇬 新加坡-智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - DIRECT
+  - name: 🇼🇸 台湾-智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - DIRECT
+  - name: 🇰🇷 韩国-智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
+  - name: 🇨🇦 加拿大-智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - DIRECT
+  - name: 🇬🇧 英国-智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - DIRECT
+  - name: 🇫🇷 法国-智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - DIRECT
+  - name: 🇩🇪 德国-智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - DIRECT
+  - name: 🇳🇱 荷兰-智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - DIRECT
+  - name: 🇹🇷 土耳其-智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - DIRECT
+  - name: 🌐 其他-智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
+      - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
+      - "[SS] ❗请到我们教程中下载Clash Verge❗"
   - name: DX 电信-最低延迟
     type: url-test
     url: https://cp.cloudflare.com/generate_204

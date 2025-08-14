@@ -19,20 +19,20 @@ proxy-groups:
   - name: 🚀 手动选择
     type: select
     proxies:
-      - ♻️ 自动选择
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - ♻️ 自动智能
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇸🇬 新加坡智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
       - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
       - "[SS] ❗请到我们教程中下载Clash Verge❗"
@@ -43,11 +43,13 @@ proxy-groups:
       - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
       - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
       - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
-  - name: ♻️ 自动选择
-    type: url-test
+  - name: ♻️ 自动智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
     url: https://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
       - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
       - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
@@ -62,39 +64,39 @@ proxy-groups:
   - name: 💬 即时通讯
     type: select
     proxies:
-      - ♻️ 自动选择
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - ♻️ 自动智能
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇸🇬 新加坡智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
   - name: 🌐 社交媒体
     type: select
     proxies:
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇸🇬 新加坡智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
       - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
       - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
       - "[SS] ❗请到我们教程中下载Clash Verge❗"
@@ -108,40 +110,40 @@ proxy-groups:
   - name: 🚀 GitHub
     type: select
     proxies:
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇸🇬 新加坡智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
       - 🎯 全球直连
   - name: 🤖 ChatGPT
     type: select
     proxies:
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇸🇬 新加坡智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
       - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
       - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
       - "[SS] ❗请到我们教程中下载Clash Verge❗"
@@ -155,21 +157,21 @@ proxy-groups:
   - name: 🤖 Copilot
     type: select
     proxies:
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇸🇬 新加坡智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
       - 🎯 全球直连
       - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
       - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
@@ -184,21 +186,21 @@ proxy-groups:
   - name: 🤖 AI服务
     type: select
     proxies:
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇸🇬 新加坡智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
       - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
       - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
       - "[SS] ❗请到我们教程中下载Clash Verge❗"
@@ -212,21 +214,21 @@ proxy-groups:
   - name: 🎶 TikTok
     type: select
     proxies:
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇸🇬 新加坡智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
       - 🎯 全球直连
       - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
       - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
@@ -241,21 +243,21 @@ proxy-groups:
   - name: 📹 YouTube
     type: select
     proxies:
-      - 🇸🇬 新加坡节点
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇸🇬 新加坡智能
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
       - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
       - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
       - "[SS] ❗请到我们教程中下载Clash Verge❗"
@@ -269,21 +271,21 @@ proxy-groups:
   - name: 🎥 Netflix
     type: select
     proxies:
-      - 🇸🇬 新加坡节点
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇸🇬 新加坡智能
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
       - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
       - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
       - "[SS] ❗请到我们教程中下载Clash Verge❗"
@@ -297,21 +299,21 @@ proxy-groups:
   - name: 🎥 DisneyPlus
     type: select
     proxies:
-      - 🇸🇬 新加坡节点
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇸🇬 新加坡智能
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
       - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
       - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
       - "[SS] ❗请到我们教程中下载Clash Verge❗"
@@ -325,21 +327,21 @@ proxy-groups:
   - name: 🎥 HBO
     type: select
     proxies:
-      - 🇸🇬 新加坡节点
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇸🇬 新加坡智能
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
       - 🎯 全球直连
       - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
       - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
@@ -354,21 +356,21 @@ proxy-groups:
   - name: 🎥 PrimeVideo
     type: select
     proxies:
-      - 🇸🇬 新加坡节点
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇸🇬 新加坡智能
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
       - 🎯 全球直连
       - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
       - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
@@ -383,21 +385,21 @@ proxy-groups:
   - name: 🎥 AppleTV+
     type: select
     proxies:
-      - 🇸🇬 新加坡节点
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇸🇬 新加坡智能
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
       - 🎯 全球直连
       - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
       - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
@@ -412,21 +414,21 @@ proxy-groups:
   - name: 🎥 Emby
     type: select
     proxies:
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇸🇬 新加坡智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
       - 🎯 全球直连
       - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
       - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
@@ -441,21 +443,21 @@ proxy-groups:
   - name: 🎻 Spotify
     type: select
     proxies:
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇸🇬 新加坡智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
       - 🎯 全球直连
       - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
       - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
@@ -470,27 +472,27 @@ proxy-groups:
   - name: 📺 Bahamut
     type: select
     proxies:
-      - 🇼🇸 台湾节点
+      - 🇼🇸 台湾智能
       - 🚀 手动选择
       - 🎯 全球直连
   - name: 🌎 国外媒体
     type: select
     proxies:
-      - 🇸🇬 新加坡节点
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇸🇬 新加坡智能
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
       - 🎯 全球直连
       - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
       - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
@@ -505,21 +507,21 @@ proxy-groups:
   - name: 🛒 国外电商
     type: select
     proxies:
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇸🇬 新加坡智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
       - 🎯 全球直连
       - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
       - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
@@ -534,117 +536,117 @@ proxy-groups:
   - name: 📢 谷歌FCM
     type: select
     proxies:
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇸🇬 新加坡智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
       - 🎯 全球直连
   - name: 🇬 谷歌服务
     type: select
     proxies:
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇸🇬 新加坡智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
       - 🎯 全球直连
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇸🇬 新加坡智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇸🇬 新加坡智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
   - name: 🎮 游戏平台
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇸🇬 新加坡智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
   - name: 🎮 Steam
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇸🇬 新加坡智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
       - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
       - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
       - "[SS] ❗请到我们教程中下载Clash Verge❗"
@@ -659,21 +661,21 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇸🇬 新加坡智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
       - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
       - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
       - "[SS] ❗请到我们教程中下载Clash Verge❗"
@@ -687,21 +689,21 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - 🇭🇰 香港节点
-      - 🇺🇸 美国节点
-      - 🇯🇵 日本节点
-      - 🇸🇬 新加坡节点
-      - 🇼🇸 台湾节点
-      - 🇰🇷 韩国节点
-      - 🇨🇦 加拿大节点
-      - 🇬🇧 英国节点
-      - 🇫🇷 法国节点
-      - 🇩🇪 德国节点
-      - 🇳🇱 荷兰节点
-      - 🇹🇷 土耳其节点
-      - 🌐 其他地区
+      - 🇭🇰 香港智能
+      - 🇺🇸 美国智能
+      - 🇯🇵 日本智能
+      - 🇸🇬 新加坡智能
+      - 🇼🇸 台湾智能
+      - 🇰🇷 韩国智能
+      - 🇨🇦 加拿大智能
+      - 🇬🇧 英国智能
+      - 🇫🇷 法国智能
+      - 🇩🇪 德国智能
+      - 🇳🇱 荷兰智能
+      - 🇹🇷 土耳其智能
+      - 🌐 其他智能
       - 🚀 手动选择
-      - ♻️ 自动选择
+      - ♻️ 自动智能
       - 🎯 全球直连
       - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
       - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
@@ -718,98 +720,124 @@ proxy-groups:
     proxies:
       - 🐟 遵循规则
       - 🎯 全球直连
-  - name: 🇭🇰 香港节点
-    type: url-test
+  - name: 🇭🇰 香港智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
     url: https://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
       - "[Trojan] 🇭🇰 1香港集群-专线(trojan)"
       - "[Trojan] 🇭🇰 3香港-专线(trojan)"
-  - name: 🇺🇸 美国节点
-    type: url-test
+  - name: 🇺🇸 美国智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
     url: https://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
       - "[Trojan] 🇺🇸 5美国集群-专线(trojan)"
       - "[Trojan] 🇺🇸 6美国圣何塞集群-专线(trojan)"
-  - name: 🇯🇵 日本节点
-    type: url-test
+  - name: 🇯🇵 日本智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
     url: https://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
       - "[Trojan] 🇯🇵 19日本-专线(trojan)"
       - "[Trojan] 🇯🇵 9日本大版集群-专线(trojan)"
-  - name: 🇸🇬 新加坡节点
-    type: url-test
+  - name: 🇸🇬 新加坡智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
     url: https://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
       - DIRECT
-  - name: 🇼🇸 台湾节点
-    type: url-test
+  - name: 🇼🇸 台湾智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
     url: https://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
       - DIRECT
-  - name: 🇰🇷 韩国节点
-    type: url-test
+  - name: 🇰🇷 韩国智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
     url: https://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
       - "[Trojan] 🇰🇷 7韩国春川集群-专线(trojan)"
-  - name: 🇨🇦 加拿大节点
-    type: url-test
+  - name: 🇨🇦 加拿大智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
     url: https://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
       - DIRECT
-  - name: 🇬🇧 英国节点
-    type: url-test
+  - name: 🇬🇧 英国智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
     url: https://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
       - DIRECT
-  - name: 🇫🇷 法国节点
-    type: url-test
+  - name: 🇫🇷 法国智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
     url: https://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
       - DIRECT
-  - name: 🇩🇪 德国节点
-    type: url-test
+  - name: 🇩🇪 德国智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
     url: https://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
       - DIRECT
-  - name: 🇳🇱 荷兰节点
-    type: url-test
+  - name: 🇳🇱 荷兰智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
     url: https://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
       - DIRECT
-  - name: 🇹🇷 土耳其节点
-    type: url-test
+  - name: 🇹🇷 土耳其智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
     url: https://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
       - DIRECT
-  - name: 🌐 其他地区
-    type: url-test
+  - name: 🌐 其他智能
+    type: smart
+    uselightgbm: true
+    collectdata: false
+    strategy: sticky-sessions
     url: https://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
       - "[SS] ❗您当前客户端v2rayN不支持hy协议❗"
       - "[SS] ❗教程 https://user.vp2.biz/#/knowledge❗"
