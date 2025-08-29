@@ -8,14 +8,14 @@ proxies:
   - {name: "[VMess] ❗如果只显示此节点|0.1x", server: mugen11.6bnw.top, port: 8080, type: vmess, uuid: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: buyvmus2.6bnw.top}}, udp: true}
   - {name: "[VMess] ❗是客户端太旧导致|0.1x", server: mugen22.6bnw.top, port: 8080, type: vmess, uuid: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: buyvmus2.6bnw.top}}, udp: true}
   - {name: "[VMess] ❗请到网站使用教程|0.1x", server: mugen33.6bnw.top, port: 8080, type: vmess, uuid: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: buyvmus2.6bnw.top}}, udp: true}
-  - {name: "[Hysteria2] 纽约", server: azcus1.jueduibupao.top, port: 20101, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, up: 300 Mbps, down: 300 Mbps, sni: azcus1.jueduibupao.top, skip-cert-verify: true}
-  - {name: "[Hysteria2] 🇨🇦 加拿大", server: ca1.jueduibupao.top, port: 41780, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, ports: 40000-50000, up: 300 Mbps, down: 300 Mbps, sni: ca1.jueduibupao.top, skip-cert-verify: true}
+  - {name: "[Hysteria2] 纽约", server: azcus1.jueduibupao.top, port: 20101, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, sni: azcus1.jueduibupao.top, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇨🇦 加拿大", server: ca1.jueduibupao.top, port: 43264, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, sni: ca1.jueduibupao.top, skip-cert-verify: true, udp: true}
   - {name: "[SS] 🇨🇦 加拿大01", server: hzhz1.sssyun.xyz, port: 39209, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:YTFiNGE1NWEtMzVlMC00Yw==, udp: true}
   - {name: "[SS] 🇨🇦 加拿大02", server: hzhz2.sssyun.xyz, port: 40021, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:YTFiNGE1NWEtMzVlMC00Yw==, udp: true}
   - {name: "[SS] 🇨🇳 台湾01-Gpt", server: hzhz1.sssyun.xyz, port: 32207, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NjVhMWE2YmVmNzg4MTcwMA==:YTFiNGE1NWEtMzVlMC00Yw==, udp: true}
   - {name: "[SS] 🇨🇳 台湾02-Gpt", server: hzhz2.sssyun.xyz, port: 40017, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NjVhMWE2YmVmNzg4MTcwMA==:YTFiNGE1NWEtMzVlMC00Yw==, udp: true}
-  - {name: "[Hysteria2] 🇨🇳 台湾1-Gpt", server: tw2.jueduibupao.top, port: 30078, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, up: 200 Mbps, down: 200 Mbps, sni: tw2.jueduibupao.top, skip-cert-verify: true}
-  - {name: "[Hysteria2] 🇩🇪 德国", server: de1.jueduibupao.top, port: 41419, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, ports: 40000-50000, up: 300 Mbps, down: 300 Mbps, sni: de1.jueduibupao.top, skip-cert-verify: true}
+  - {name: "[Hysteria2] 🇨🇳 台湾1-Gpt", server: tw2.jueduibupao.top, port: 30078, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, sni: tw2.jueduibupao.top, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇩🇪 德国", server: de1.jueduibupao.top, port: 43061, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, sni: de1.jueduibupao.top, skip-cert-verify: true, udp: true}
   - {name: "[SS] 🇩🇪 德国01", server: hzhz1.sssyun.xyz, port: 39987, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:YTFiNGE1NWEtMzVlMC00Yw==, udp: true}
   - {name: "[SS] 🇩🇪 德国02", server: hzhz2.sssyun.xyz, port: 39981, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:YTFiNGE1NWEtMzVlMC00Yw==, udp: true}
   - {name: "[SS] 🇭🇰 香港01-IPv6", server: hzhz1.sssyun.xyz, port: 29527, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:YTFiNGE1NWEtMzVlMC00Yw==, udp: true}
@@ -24,16 +24,16 @@ proxies:
   - {name: "[SS] 🇭🇰 香港04-IPv6", server: hzhz2.sssyun.xyz, port: 40023, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:YTFiNGE1NWEtMzVlMC00Yw==, udp: true}
   - {name: "[SS] 🇭🇰 香港05-流媒体解锁", server: hzhz1.sssyun.xyz, port: 39301, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:YTFiNGE1NWEtMzVlMC00Yw==, udp: true}
   - {name: "[SS] 🇭🇰 香港06-流媒体解锁", server: hzhz2.sssyun.xyz, port: 40011, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:YTFiNGE1NWEtMzVlMC00Yw==, udp: true}
-  - {name: "[Hysteria2] 🇭🇰 香港1", server: hk1.jueduibupao.top, port: 50001, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, up: 100 Mbps, down: 300 Mbps, sni: hk1.jueduibupao.top, skip-cert-verify: true}
-  - {name: "[Hysteria2] 🇭🇰 香港2", server: hk2.jueduibupao.top, port: 44923, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, ports: 40000-50000, up: 100 Mbps, down: 300 Mbps, sni: hk2.jueduibupao.top, skip-cert-verify: true}
-  - {name: "[Hysteria2] 🇮🇩 印尼", server: in1.jueduibupao.top, port: 30000, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, up: 300 Mbps, down: 300 Mbps, sni: in1.jueduibupao.top, skip-cert-verify: true}
+  - {name: "[Hysteria2] 🇭🇰 香港1", server: hk1.jueduibupao.top, port: 50001, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, sni: hk1.jueduibupao.top, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇭🇰 香港2", server: hk2.jueduibupao.top, port: 47990, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, sni: hk2.jueduibupao.top, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇭🇰 香港3", server: hk3.jueduibupao.top, port: 40715, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, sni: hk3.jueduibupao.top, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇮🇩 印尼", server: in1.jueduibupao.top, port: 30000, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, sni: in1.jueduibupao.top, skip-cert-verify: true, udp: true}
   - {name: "[SS] 🇯🇵 日本01", server: hzhz1.sssyun.xyz, port: 19529, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:YTFiNGE1NWEtMzVlMC00Yw==, udp: true}
   - {name: "[SS] 🇯🇵 日本02", server: hzhz2.sssyun.xyz, port: 40019, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:YTFiNGE1NWEtMzVlMC00Yw==, udp: true}
   - {name: "[SS] 🇯🇵 日本03", server: hzhz1.sssyun.xyz, port: 49207, type: ss, cipher: 2022-blake3-aes-256-gcm, password: MDhhMTdjZDI0MjI2ZWRlNjE5OWQyNDYxZjM1MjA0OTg=:YTFiNGE1NWEtMzVlMC00YzAyLWI0MWQtNTdlOWViZjc=, udp: true}
   - {name: "[SS] 🇯🇵 日本04", server: hzhz2.sssyun.xyz, port: 40020, type: ss, cipher: 2022-blake3-aes-256-gcm, password: MDhhMTdjZDI0MjI2ZWRlNjE5OWQyNDYxZjM1MjA0OTg=:YTFiNGE1NWEtMzVlMC00YzAyLWI0MWQtNTdlOWViZjc=, udp: true}
-  - {name: "[Hysteria2] 🇯🇵 日本1", server: linjp1.jueduibupao.top, port: 47022, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, ports: 40000-50000, up: 100 Mbps, down: 300 Mbps, sni: linjp1.jueduibupao.top, skip-cert-verify: true}
-  - {name: "[Hysteria2] 🇯🇵 日本2", server: linjp2.jueduibupao.top, port: 40159, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, ports: 40000-50000, up: 300 Mbps, down: 300 Mbps, sni: linjp2.jueduibupao.top, skip-cert-verify: true}
-  - {name: "[Hysteria2] 🇰🇷 韩国-家宽", server: 6bkr1.6bnw.top, port: 10100, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, up: 100 Mbps, down: 100 Mbps, sni: 6bkr1.6bnw.top, skip-cert-verify: true}
+  - {name: "[Hysteria2] 🇯🇵 日本1", server: linjp1.jueduibupao.top, port: 48366, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, sni: linjp1.jueduibupao.top, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇰🇷 韩国-家宽", server: 6bkr1.6bnw.top, port: 10100, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, sni: 6bkr1.6bnw.top, skip-cert-verify: true, udp: true}
   - {name: "[SS] 🇰🇷 韩国-家宽03", server: hzhz1.sssyun.xyz, port: 39206, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NjVhMWE2YmVmNzg4MTcwMA==:YTFiNGE1NWEtMzVlMC00Yw==, udp: true}
   - {name: "[SS] 🇰🇷 韩国-家宽04", server: hzhz2.sssyun.xyz, port: 20116, type: ss, cipher: 2022-blake3-aes-128-gcm, password: NjVhMWE2YmVmNzg4MTcwMA==:YTFiNGE1NWEtMzVlMC00Yw==, udp: true}
   - {name: "[VMess] 🇸🇬 ❗更新一下客户端|0.1x", server: mugen44.6bnw.top, port: 8080, type: vmess, uuid: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: buyvmus2.6bnw.top}}, udp: true}
@@ -42,12 +42,12 @@ proxies:
   - {name: "[SS] 🇸🇬 新加坡02-流媒体解锁", server: hzhz2.sssyun.xyz, port: 40013, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:YTFiNGE1NWEtMzVlMC00Yw==, udp: true}
   - {name: "[SS] 🇸🇬 新加坡03", server: hzhz1.sssyun.xyz, port: 39505, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:YTFiNGE1NWEtMzVlMC00Yw==, udp: true}
   - {name: "[SS] 🇸🇬 新加坡04", server: hzhz2.sssyun.xyz, port: 44014, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:YTFiNGE1NWEtMzVlMC00Yw==, udp: true}
-  - {name: "[Hysteria2] 🇸🇬 新加坡1", server: linsg1.jueduibupao.top, port: 46670, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, ports: 40000-50000, up: 300 Mbps, down: 300 Mbps, sni: linsg1.jueduibupao.top, skip-cert-verify: true}
-  - {name: "[Hysteria2] 🇸🇬 新加坡2", server: linsg2.jueduibupao.top, port: 41558, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, ports: 40000-50000, up: 300 Mbps, down: 300 Mbps, sni: linsg2.jueduibupao.top, skip-cert-verify: true}
-  - {name: "[Hysteria2] 🇸🇬 新加坡3", server: linsg3.jueduibupao.top, port: 30054, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, up: 300 Mbps, down: 300 Mbps, sni: linsg3.jueduibupao.top, skip-cert-verify: true}
-  - {name: "[Hysteria2] 🇹🇭 曼谷", server: th1.jueduibupao.top, port: 30000, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, up: 300 Mbps, down: 300 Mbps, sni: th1.jueduibupao.top, skip-cert-verify: true}
-  - {name: "[Hysteria2] 🇺🇸 凤凰城", server: ny.jueduibupao.top, port: 50001, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, up: 300 Mbps, down: 300 Mbps, sni: ny.jueduibupao.top, skip-cert-verify: true}
-  - {name: "[Hysteria2] 🇺🇸 拉斯维加斯", server: lvs.jueduibupao.top, port: 50001, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, up: 300 Mbps, down: 300 Mbps, sni: lvs.jueduibupao.top, skip-cert-verify: true}
+  - {name: "[Hysteria2] 🇸🇬 新加坡1", server: linsg1.jueduibupao.top, port: 43260, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, sni: linsg1.jueduibupao.top, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇸🇬 新加坡2", server: linsg2.jueduibupao.top, port: 44365, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, sni: linsg2.jueduibupao.top, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇸🇬 新加坡3", server: linsg3.jueduibupao.top, port: 30054, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, sni: linsg3.jueduibupao.top, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇹🇭 曼谷", server: th1.jueduibupao.top, port: 30000, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, sni: th1.jueduibupao.top, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇺🇸 凤凰城", server: ny.jueduibupao.top, port: 50001, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, sni: ny.jueduibupao.top, skip-cert-verify: true, udp: true}
+  - {name: "[Hysteria2] 🇺🇸 拉斯维加斯", server: lvs.jueduibupao.top, port: 50001, type: hysteria2, password: a1b4a55a-35e0-4c02-b41d-57e9ebf701a4, sni: lvs.jueduibupao.top, skip-cert-verify: true, udp: true}
   - {name: "[SS] 🇺🇸 美国凤凰城01", server: hzhz1.sssyun.xyz, port: 12980, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:YTFiNGE1NWEtMzVlMC00Yw==, udp: true}
   - {name: "[SS] 🇺🇸 美国凤凰城02", server: hzhz2.sssyun.xyz, port: 12981, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:YTFiNGE1NWEtMzVlMC00Yw==, udp: true}
   - {name: "[SS] 🇺🇸 美国拉斯维加斯01", server: hzhz1.sssyun.xyz, port: 12983, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:YTFiNGE1NWEtMzVlMC00Yw==, udp: true}
@@ -58,21 +58,6 @@ proxy-groups:
   - name: 🚀 节点-手动
     type: select
     proxies:
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -124,70 +109,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
-      - "[Hysteria2] 🇰🇷 韩国-家宽"
-      - "[SS] 🇰🇷 韩国-家宽03"
-      - "[SS] 🇰🇷 韩国-家宽04"
-      - "[VMess] 🇸🇬 ❗更新一下客户端|0.1x"
-      - "[SS] 🇸🇬 建议每次使用前都更新一下订阅"
-      - "[SS] 🇸🇬 新加坡01-流媒体解锁"
-      - "[SS] 🇸🇬 新加坡02-流媒体解锁"
-      - "[SS] 🇸🇬 新加坡03"
-      - "[SS] 🇸🇬 新加坡04"
-      - "[Hysteria2] 🇸🇬 新加坡1"
-      - "[Hysteria2] 🇸🇬 新加坡2"
-      - "[Hysteria2] 🇸🇬 新加坡3"
-      - "[Hysteria2] 🇹🇭 曼谷"
-      - "[Hysteria2] 🇺🇸 凤凰城"
-      - "[Hysteria2] 🇺🇸 拉斯维加斯"
-      - "[SS] 🇺🇸 美国凤凰城01"
-      - "[SS] 🇺🇸 美国凤凰城02"
-      - "[SS] 🇺🇸 美国拉斯维加斯01"
-      - "[SS] 🇺🇸 美国拉斯维加斯02"
-      - "[SS] 🇺🇸 美国纽约01"
-      - "[SS] 🇺🇸 美国纽约02"
-  - name: ♻️ 节点-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "[VMess] ❗如果只显示此节点|0.1x"
-      - "[VMess] ❗是客户端太旧导致|0.1x"
-      - "[VMess] ❗请到网站使用教程|0.1x"
-      - "[Hysteria2] 纽约"
-      - "[Hysteria2] 🇨🇦 加拿大"
-      - "[SS] 🇨🇦 加拿大01"
-      - "[SS] 🇨🇦 加拿大02"
-      - "[SS] 🇨🇳 台湾01-Gpt"
-      - "[SS] 🇨🇳 台湾02-Gpt"
-      - "[Hysteria2] 🇨🇳 台湾1-Gpt"
-      - "[Hysteria2] 🇩🇪 德国"
-      - "[SS] 🇩🇪 德国01"
-      - "[SS] 🇩🇪 德国02"
-      - "[SS] 🇭🇰 香港01-IPv6"
-      - "[SS] 🇭🇰 香港02-IPv6"
-      - "[SS] 🇭🇰 香港03-IPv6"
-      - "[SS] 🇭🇰 香港04-IPv6"
-      - "[SS] 🇭🇰 香港05-流媒体解锁"
-      - "[SS] 🇭🇰 香港06-流媒体解锁"
-      - "[Hysteria2] 🇭🇰 香港1"
-      - "[Hysteria2] 🇭🇰 香港2"
-      - "[Hysteria2] 🇮🇩 印尼"
-      - "[SS] 🇯🇵 日本01"
-      - "[SS] 🇯🇵 日本02"
-      - "[SS] 🇯🇵 日本03"
-      - "[SS] 🇯🇵 日本04"
-      - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -236,13 +164,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -268,21 +196,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -334,13 +247,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -366,21 +279,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -432,13 +330,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -464,21 +362,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -530,13 +413,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -562,21 +445,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -628,13 +496,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -660,21 +528,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -726,13 +579,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -758,21 +611,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -824,13 +662,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -856,21 +694,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -922,13 +745,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -954,21 +777,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1020,13 +828,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -1052,21 +860,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1118,13 +911,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -1150,21 +943,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1216,13 +994,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -1248,21 +1026,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1314,13 +1077,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -1346,21 +1109,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1412,13 +1160,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -1444,21 +1192,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1510,13 +1243,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -1542,21 +1275,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1608,13 +1326,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -1640,21 +1358,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1706,13 +1409,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -1738,21 +1441,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1804,13 +1492,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -1836,21 +1524,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1902,13 +1575,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -1934,21 +1607,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -2000,13 +1658,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -2032,21 +1690,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -2098,13 +1741,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -2131,21 +1774,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -2196,13 +1824,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -2229,21 +1857,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -2294,13 +1907,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -2327,21 +1940,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -2392,13 +1990,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -2425,21 +2023,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -2490,13 +2073,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -2523,21 +2106,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -2588,13 +2156,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -2621,21 +2189,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -2686,13 +2239,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -2718,21 +2271,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -2784,13 +2322,13 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
       - "[Hysteria2] 🇮🇩 印尼"
       - "[SS] 🇯🇵 日本01"
       - "[SS] 🇯🇵 日本02"
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
       - "[Hysteria2] 🇰🇷 韩国-家宽"
       - "[SS] 🇰🇷 韩国-家宽03"
       - "[SS] 🇰🇷 韩国-家宽04"
@@ -2812,172 +2350,6 @@ proxy-groups:
       - "[SS] 🇺🇸 美国拉斯维加斯02"
       - "[SS] 🇺🇸 美国纽约01"
       - "[SS] 🇺🇸 美国纽约02"
-  - name: DX 电信-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - DIRECT
-  - name: 🇭🇰 香港-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "[SS] 🇭🇰 香港01-IPv6"
-      - "[SS] 🇭🇰 香港02-IPv6"
-      - "[SS] 🇭🇰 香港03-IPv6"
-      - "[SS] 🇭🇰 香港04-IPv6"
-      - "[SS] 🇭🇰 香港05-流媒体解锁"
-      - "[SS] 🇭🇰 香港06-流媒体解锁"
-      - "[Hysteria2] 🇭🇰 香港1"
-      - "[Hysteria2] 🇭🇰 香港2"
-  - name: 🇺🇸 美国-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "[Hysteria2] 🇺🇸 凤凰城"
-      - "[Hysteria2] 🇺🇸 拉斯维加斯"
-      - "[SS] 🇺🇸 美国凤凰城01"
-      - "[SS] 🇺🇸 美国凤凰城02"
-      - "[SS] 🇺🇸 美国拉斯维加斯01"
-      - "[SS] 🇺🇸 美国拉斯维加斯02"
-      - "[SS] 🇺🇸 美国纽约01"
-      - "[SS] 🇺🇸 美国纽约02"
-  - name: 🇯🇵 日本-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "[SS] 🇯🇵 日本01"
-      - "[SS] 🇯🇵 日本02"
-      - "[SS] 🇯🇵 日本03"
-      - "[SS] 🇯🇵 日本04"
-      - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
-  - name: 🇸🇬 新加坡-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "[SS] 🇸🇬 新加坡01-流媒体解锁"
-      - "[SS] 🇸🇬 新加坡02-流媒体解锁"
-      - "[SS] 🇸🇬 新加坡03"
-      - "[SS] 🇸🇬 新加坡04"
-      - "[Hysteria2] 🇸🇬 新加坡1"
-      - "[Hysteria2] 🇸🇬 新加坡2"
-      - "[Hysteria2] 🇸🇬 新加坡3"
-  - name: 🇼🇸 台湾-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "[SS] 🇨🇳 台湾01-Gpt"
-      - "[SS] 🇨🇳 台湾02-Gpt"
-      - "[Hysteria2] 🇨🇳 台湾1-Gpt"
-  - name: 🇰🇷 韩国-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "[Hysteria2] 🇰🇷 韩国-家宽"
-      - "[SS] 🇰🇷 韩国-家宽03"
-      - "[SS] 🇰🇷 韩国-家宽04"
-  - name: 🇨🇦 加拿大-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "[Hysteria2] 🇨🇦 加拿大"
-      - "[SS] 🇨🇦 加拿大01"
-      - "[SS] 🇨🇦 加拿大02"
-  - name: 🇬🇧 英国-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - DIRECT
-  - name: 🇫🇷 法国-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - DIRECT
-  - name: 🇩🇪 德国-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "[Hysteria2] 🇩🇪 德国"
-      - "[SS] 🇩🇪 德国01"
-      - "[SS] 🇩🇪 德国02"
-  - name: 🇳🇱 荷兰-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - DIRECT
-  - name: 🇹🇷 土耳其-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - DIRECT
-  - name: 🌐 其他-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "[VMess] ❗如果只显示此节点|0.1x"
-      - "[VMess] ❗是客户端太旧导致|0.1x"
-      - "[VMess] ❗请到网站使用教程|0.1x"
-      - "[Hysteria2] 纽约"
-      - "[Hysteria2] 🇮🇩 印尼"
-      - "[VMess] 🇸🇬 ❗更新一下客户端|0.1x"
-      - "[SS] 🇸🇬 建议每次使用前都更新一下订阅"
-      - "[Hysteria2] 🇹🇭 曼谷"
   - name: DX 电信-最低延迟
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -2999,6 +2371,7 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
   - name: 🇺🇸 美国-最低延迟
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -3024,7 +2397,6 @@ proxy-groups:
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
   - name: 🇸🇬 新加坡-最低延迟
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -3131,6 +2503,7 @@ proxy-groups:
       - "[SS] 🇭🇰 香港06-流媒体解锁"
       - "[Hysteria2] 🇭🇰 香港1"
       - "[Hysteria2] 🇭🇰 香港2"
+      - "[Hysteria2] 🇭🇰 香港3"
   - name: 🇺🇸 美国-手动
     type: select
     proxies:
@@ -3150,7 +2523,6 @@ proxy-groups:
       - "[SS] 🇯🇵 日本03"
       - "[SS] 🇯🇵 日本04"
       - "[Hysteria2] 🇯🇵 日本1"
-      - "[Hysteria2] 🇯🇵 日本2"
   - name: 🇸🇬 新加坡-手动
     type: select
     proxies:

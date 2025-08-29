@@ -5,56 +5,45 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "[VMess] 套餐到期：长期有效", server: cs.472361.xyz, port: 27293, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇦🇪 迪拜 | BGP | 0.5x", server: cs.472361.xyz, port: 26967, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x", server: cs.472361.xyz, port: 36449, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇧🇷 巴西 | BGP | 0.6x", server: cs.472361.xyz, port: 29695, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇨🇱 智利 | BGP | 0.5x", server: cs.472361.xyz, port: 10679, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x", server: gz.472361.xyz, port: 18503, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x", server: gz.472361.xyz, port: 57841, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇩🇪 德国｜BGP｜1.0x", server: gzyd.472361.xyz, port: 25698, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇬🇧 英国 | BGP | 1.0x", server: gzyd.472361.xyz, port: 25943, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x", server: gz.472361.xyz, port: 25789, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x", server: cs.472361.xyz, port: 38007, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x", server: gz.472361.xyz, port: 31937, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇭🇰 香港 | HKT家宽 原生 | 0.8x", server: gz.472361.xyz, port: 51761, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇮🇩 印度尼西亚 | BGP | 1.0x", server: cs.472361.xyz, port: 22689, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇮🇳 印度 | BGP | 0.7x", server: cs.472361.xyz, port: 33199, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇯🇵 日本 | 01 | BGP | 0.8x", server: cs.472361.xyz, port: 38079, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇯🇵 日本 | 02 | BGP | 0.8x", server: cs.472361.xyz, port: 35259, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇲🇴 澳门 | BGP | 1.0x", server: gz.472361.xyz, port: 18962, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇲🇾 马来西亚 | BGP | 1.0x", server: cs.472361.xyz, port: 34302, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇳🇱 荷兰 | BGP | 1.0x", server: gzyd.472361.xyz, port: 20270, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇳🇿 新西兰 | BGP | 1.0x", server: gzyd.472361.xyz, port: 20030, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇷🇺 俄罗斯 | BGP | 0.6x", server: gzyd.472361.xyz, port: 33841, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇸🇬 新加坡 | 01 |BGP | 0.8x", server: cs.472361.xyz, port: 19741, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇸🇬 新加坡 | 02 |BGP | 0.8x", server: cs.472361.xyz, port: 19447, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇸🇬 新加坡 | 03 | 原生 | 1.0x", server: cs.472361.xyz, port: 48741, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: "[VMess] 套餐到期：长期有效", server: cs.472361.xyz, port: 27293, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇦🇪 迪拜 | BGP | 0.5x", server: cs.472361.xyz, port: 26967, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x", server: cs.472361.xyz, port: 36449, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇨🇱 智利 | BGP | 0.5x", server: cs.472361.xyz, port: 10679, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x", server: gz.472361.xyz, port: 18503, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x", server: gz.472361.xyz, port: 57841, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[SS] 🇨🇳 台湾 | IEPL | 4x", server: bgpiepl.472361.xyz, port: 35987, type: ss, cipher: aes-128-gcm, password: d793621b-217c-4247-9e1b-dcac8132f5c1, udp: true}
+  - {name: "[SS] 🇨🇳 台湾Hinet | IEPL | 4x", server: bgpiepl.472361.xyz, port: 35988, type: ss, cipher: aes-128-gcm, password: d793621b-217c-4247-9e1b-dcac8132f5c1, udp: true}
+  - {name: "[VMess] 🇩🇪 德国｜BGP｜1.0x", server: gzyd.472361.xyz, port: 25698, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇬🇧 英国 | BGP | 1.0x", server: gzyd.472361.xyz, port: 25943, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[SS] 🇭🇰 深港1｜IEPL | 4x", server: bgpiepl.472361.xyz, port: 26451, type: ss, cipher: aes-128-gcm, password: d793621b-217c-4247-9e1b-dcac8132f5c1, udp: true}
+  - {name: "[SS] 🇭🇰 深港2｜IEPL | 4x", server: bgpiepl.472361.xyz, port: 26452, type: ss, cipher: aes-128-gcm, password: d793621b-217c-4247-9e1b-dcac8132f5c1, udp: true}
+  - {name: "[SS] 🇭🇰 深港3｜IEPL | 4x", server: bgpiepl.472361.xyz, port: 26453, type: ss, cipher: aes-128-gcm, password: d793621b-217c-4247-9e1b-dcac8132f5c1, udp: true}
+  - {name: "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x", server: gz.472361.xyz, port: 25789, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x", server: cs.472361.xyz, port: 38007, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x", server: gz.472361.xyz, port: 31937, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇭🇰 香港 | HKT家宽 原生 | 0.8x", server: gz.472361.xyz, port: 51761, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇮🇩 印度尼西亚 | BGP | 1.0x", server: cs.472361.xyz, port: 22689, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇮🇳 印度 | BGP | 0.7x", server: cs.472361.xyz, port: 33199, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇯🇵 日本 | 01 | BGP | 0.8x", server: cs.472361.xyz, port: 38079, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇯🇵 日本 | 02 | BGP | 0.8x", server: cs.472361.xyz, port: 35259, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇲🇴 澳门 | BGP | 1.0x", server: gz.472361.xyz, port: 18962, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇲🇾 马来西亚 | BGP | 1.0x", server: cs.472361.xyz, port: 34302, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇳🇱 荷兰 | BGP | 1.0x", server: gzyd.472361.xyz, port: 20270, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇳🇿 新西兰 | BGP | 1.0x", server: gzyd.472361.xyz, port: 20030, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇷🇺 俄罗斯 | BGP | 0.6x", server: gzyd.472361.xyz, port: 33841, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇸🇬 新加坡 | 01 |BGP | 0.8x", server: cs.472361.xyz, port: 19741, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇸🇬 新加坡 | 02 |BGP | 0.8x", server: cs.472361.xyz, port: 19447, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇸🇬 新加坡 | 03 | 原生 | 1.0x", server: cs.472361.xyz, port: 48741, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "[SS] 🇹🇷 土耳其 | BGP | 0.9x", server: cs.472361.xyz, port: 56882, type: ss, cipher: aes-128-gcm, password: d793621b-217c-4247-9e1b-dcac8132f5c1, udp: true}
-  - {name: "[VMess] 🇺🇸 美国 | 01 | BGP | 1.0x", server: cs.472361.xyz, port: 27293, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x", server: cs.472361.xyz, port: 35669, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x", server: dx.472361.xyz, port: 36149, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x", server: cs.472361.xyz, port: 32958, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: "[VMess] 🏳️‍🌈 剩余流量：4504 GB", server: cs.472361.xyz, port: 27293, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: "[VMess] 🇺🇸 美国 | 01 | BGP | 1.0x", server: cs.472361.xyz, port: 27293, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x", server: cs.472361.xyz, port: 35669, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x", server: dx.472361.xyz, port: 36149, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x", server: cs.472361.xyz, port: 32958, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB", server: cs.472361.xyz, port: 27293, type: vmess, uuid: d793621b-217c-4247-9e1b-dcac8132f5c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点-手动
     type: select
     proxies:
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -88,12 +77,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -115,46 +108,7 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
-  - name: ♻️ 节点-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "[VMess] 套餐到期：长期有效"
-      - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
-      - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
-      - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
-      - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
-      - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
-      - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
-      - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
-      - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
-      - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
-      - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
-      - "[VMess] 🇭🇰 香港 | HKT家宽 原生 | 0.8x"
-      - "[VMess] 🇮🇩 印度尼西亚 | BGP | 1.0x"
-      - "[VMess] 🇮🇳 印度 | BGP | 0.7x"
-      - "[VMess] 🇯🇵 日本 | 01 | BGP | 0.8x"
-      - "[VMess] 🇯🇵 日本 | 02 | BGP | 0.8x"
-      - "[VMess] 🇲🇴 澳门 | BGP | 1.0x"
-      - "[VMess] 🇲🇾 马来西亚 | BGP | 1.0x"
-      - "[VMess] 🇳🇱 荷兰 | BGP | 1.0x"
-      - "[VMess] 🇳🇿 新西兰 | BGP | 1.0x"
-      - "[VMess] 🇷🇺 俄罗斯 | BGP | 0.6x"
-      - "[VMess] 🇸🇬 新加坡 | 01 |BGP | 0.8x"
-      - "[VMess] 🇸🇬 新加坡 | 02 |BGP | 0.8x"
-      - "[VMess] 🇸🇬 新加坡 | 03 | 原生 | 1.0x"
-      - "[SS] 🇹🇷 土耳其 | BGP | 0.9x"
-      - "[VMess] 🇺🇸 美国 | 01 | BGP | 1.0x"
-      - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
-      - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
-      - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: ♻️ 节点-最低延迟
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -164,12 +118,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -191,26 +149,11 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 💬 即时通讯
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -244,12 +187,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -271,26 +218,11 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🌐 社交媒体
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -324,12 +256,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -351,26 +287,11 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🚀 GitHub
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -404,12 +325,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -431,26 +356,11 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🤖 ChatGPT
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -484,12 +394,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -511,26 +425,11 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🤖 Copilot
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -564,12 +463,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -591,26 +494,11 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🤖 AI服务
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -644,12 +532,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -671,26 +563,11 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🎶 TikTok
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -724,12 +601,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -751,26 +632,11 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 📹 YouTube
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -804,12 +670,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -831,26 +701,11 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🎥 Netflix
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -884,12 +739,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -911,26 +770,11 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🎥 DisneyPlus
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -964,12 +808,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -991,26 +839,11 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🎥 HBO
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1044,12 +877,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -1071,26 +908,11 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🎥 PrimeVideo
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1124,12 +946,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -1151,26 +977,11 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🎥 AppleTV+
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1204,12 +1015,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -1231,26 +1046,11 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🎻 Spotify
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1284,12 +1084,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -1311,26 +1115,11 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 📺 Bahamut
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1364,12 +1153,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -1391,26 +1184,11 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🌎 国外媒体
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1444,12 +1222,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -1471,26 +1253,11 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🛒 国外电商
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1524,12 +1291,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -1551,26 +1322,11 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1604,12 +1360,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -1631,26 +1391,11 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🇬 谷歌服务
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1684,12 +1429,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -1711,27 +1460,12 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🎥 Emby
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1764,12 +1498,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -1791,27 +1529,12 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1844,12 +1567,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -1871,27 +1598,12 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -1924,12 +1636,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -1951,27 +1667,12 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🎮 游戏平台
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -2004,12 +1705,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -2031,27 +1736,12 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🎮 Steam
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -2084,12 +1774,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -2111,27 +1805,12 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🚀 测速工具
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -2164,12 +1843,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -2191,26 +1874,11 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 节点-手动
-      - ♻️ 节点-智能
-      - DX 电信-智能
-      - 🇭🇰 香港-智能
-      - 🇺🇸 美国-智能
-      - 🇯🇵 日本-智能
-      - 🇸🇬 新加坡-智能
-      - 🇼🇸 台湾-智能
-      - 🇰🇷 韩国-智能
-      - 🇨🇦 加拿大-智能
-      - 🇬🇧 英国-智能
-      - 🇫🇷 法国-智能
-      - 🇩🇪 德国-智能
-      - 🇳🇱 荷兰-智能
-      - 🇹🇷 土耳其-智能
-      - 🌐 其他-智能
       - ♻️ 节点-最低延迟
       - DX 电信-最低延迟
       - 🇭🇰 香港-最低延迟
@@ -2244,12 +1912,16 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
       - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
       - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -2271,154 +1943,7 @@ proxy-groups:
       - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
       - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
-  - name: DX 电信-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - DIRECT
-  - name: 🇭🇰 香港-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
-      - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
-      - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
-      - "[VMess] 🇭🇰 香港 | HKT家宽 原生 | 0.8x"
-  - name: 🇺🇸 美国-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "[VMess] 🇺🇸 美国 | 01 | BGP | 1.0x"
-      - "[VMess] 🇺🇸 美国 | 02 | BGP | 0.6x"
-      - "[VMess] 🇺🇸 美国 | 03 | BGP | 0.6x"
-      - "[VMess] 🇺🇸 美国 | 04 | CMIN2优化 | 2.5x"
-  - name: 🇯🇵 日本-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "[VMess] 🇯🇵 日本 | 01 | BGP | 0.8x"
-      - "[VMess] 🇯🇵 日本 | 02 | BGP | 0.8x"
-  - name: 🇸🇬 新加坡-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "[VMess] 🇸🇬 新加坡 | 01 |BGP | 0.8x"
-      - "[VMess] 🇸🇬 新加坡 | 02 |BGP | 0.8x"
-      - "[VMess] 🇸🇬 新加坡 | 03 | 原生 | 1.0x"
-  - name: 🇼🇸 台湾-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
-      - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
-  - name: 🇰🇷 韩国-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - DIRECT
-  - name: 🇨🇦 加拿大-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - DIRECT
-  - name: 🇬🇧 英国-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "[VMess] 🇬🇧 英国 | BGP | 1.0x"
-  - name: 🇫🇷 法国-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - DIRECT
-  - name: 🇩🇪 德国-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "[VMess] 🇩🇪 德国｜BGP｜1.0x"
-  - name: 🇳🇱 荷兰-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "[VMess] 🇳🇱 荷兰 | BGP | 1.0x"
-  - name: 🇹🇷 土耳其-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "[SS] 🇹🇷 土耳其 | BGP | 0.9x"
-  - name: 🌐 其他-智能
-    type: smart
-    uselightgbm: true
-    collectdata: false
-    strategy: sticky-sessions
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "[VMess] 套餐到期：长期有效"
-      - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
-      - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
-      - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
-      - "[VMess] 🇮🇩 印度尼西亚 | BGP | 1.0x"
-      - "[VMess] 🇮🇳 印度 | BGP | 0.7x"
-      - "[VMess] 🇲🇴 澳门 | BGP | 1.0x"
-      - "[VMess] 🇲🇾 马来西亚 | BGP | 1.0x"
-      - "[VMess] 🇳🇿 新西兰 | BGP | 1.0x"
-      - "[VMess] 🇷🇺 俄罗斯 | BGP | 0.6x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: DX 电信-最低延迟
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -2432,6 +1957,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -2471,6 +1999,8 @@ proxy-groups:
     proxies:
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
   - name: 🇰🇷 韩国-最低延迟
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -2529,7 +2059,6 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇮🇩 印度尼西亚 | BGP | 1.0x"
       - "[VMess] 🇮🇳 印度 | BGP | 0.7x"
@@ -2537,7 +2066,7 @@ proxy-groups:
       - "[VMess] 🇲🇾 马来西亚 | BGP | 1.0x"
       - "[VMess] 🇳🇿 新西兰 | BGP | 1.0x"
       - "[VMess] 🇷🇺 俄罗斯 | BGP | 0.6x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: DX 电信-手动
     type: select
     proxies:
@@ -2545,6 +2074,9 @@ proxy-groups:
   - name: 🇭🇰 香港-手动
     type: select
     proxies:
+      - "[SS] 🇭🇰 深港1｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港2｜IEPL | 4x"
+      - "[SS] 🇭🇰 深港3｜IEPL | 4x"
       - "[VMess] 🇭🇰 香港 | 03 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 04 | BGP | 0.8x"
       - "[VMess] 🇭🇰 香港 | 05 | BGP | 0.8x"
@@ -2572,6 +2104,8 @@ proxy-groups:
     proxies:
       - "[VMess] 🇨🇳 台湾 | 01 | BGP | 0.8x"
       - "[VMess] 🇨🇳 台湾 | Hinet 家宽 | 0.8x"
+      - "[SS] 🇨🇳 台湾 | IEPL | 4x"
+      - "[SS] 🇨🇳 台湾Hinet | IEPL | 4x"
   - name: 🇰🇷 韩国-手动
     type: select
     proxies:
@@ -2606,7 +2140,6 @@ proxy-groups:
       - "[VMess] 套餐到期：长期有效"
       - "[VMess] 🇦🇪 迪拜 | BGP | 0.5x"
       - "[VMess] 🇦🇺 澳大利亚 | BGP | 1.0x"
-      - "[VMess] 🇧🇷 巴西 | BGP | 0.6x"
       - "[VMess] 🇨🇱 智利 | BGP | 0.5x"
       - "[VMess] 🇮🇩 印度尼西亚 | BGP | 1.0x"
       - "[VMess] 🇮🇳 印度 | BGP | 0.7x"
@@ -2614,7 +2147,7 @@ proxy-groups:
       - "[VMess] 🇲🇾 马来西亚 | BGP | 1.0x"
       - "[VMess] 🇳🇿 新西兰 | BGP | 1.0x"
       - "[VMess] 🇷🇺 俄罗斯 | BGP | 0.6x"
-      - "[VMess] 🏳️‍🌈 剩余流量：4504 GB"
+      - "[VMess] 🏳️‍🌈 剩余流量：4442.18 GB"
   - name: 🎯 全球直连
     type: select
     proxies:
